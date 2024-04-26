@@ -4,9 +4,9 @@
 	import { setContext, onMount } from "svelte";
 	import { getMotion } from "./utils.js";
 	import { themes } from "./config.js";
-	import Scroller from "./layout/Scroller.svelte.js";
-	import Em from "./ui/Em.svelte.js";
-	import ColourScaleLegend from "./map_components/ColourScaleLegend_copy.svelte.js";
+	import Scroller from "./layout/Scroller.svelte";
+	import Em from "./ui/Em.svelte";
+	import ColourScaleLegend from "./map_components/ColourScaleLegend_copy.svelte";
 	
     // DEMO-SPECIFIC IMPORTS
 	//import bbox from "@turf/bbox";
@@ -31,12 +31,12 @@
 	let index;
 
     // Constants
-	const topojson = "./data/jsons/BUA22_full.json";
+	const topojson = "./data/jsons/ttwa_2011.json";
 	const mapstyle = "https://bothness.github.io/ons-basemaps/data/style-omt.json";
 
 // Data
-    let data = {bua: {}};
-	let metadata = {bua: {}};
+    let data = {ttwa: {}};
+	let metadata = {ttwa: {}};
 	let geojson;
 	let LA_opac = 0.7;
 	// Element bindings
@@ -49,7 +49,7 @@
 
     let hov = ''; 
     let hover_dict = {};
-    let hovered_bua; // Hovered bua (chart or map)
+    let hovered_ttwa; // Hovered ttwa (chart or map)
 
     	// Functions for chart and map on:select and on:hover events
 	export function doSelect(e, map_id, geo) {
@@ -58,17 +58,17 @@
 	}
 	
 	export function doHover(e) {
-		hovered_bua = '';
+		hovered_ttwa = '';
 		if (e.detail.id !== null){
 			let feature_id =  e.detail.id;
-      if (e.detail.feature.source == 'bua'){
-				hovered_bua = feature_id; 
+      if (e.detail.feature.source == 'ttwa'){
+				hovered_ttwa = feature_id; 
 			}
 			else{
 				hovered = feature_id;
 			}
 		}
-		hover_dict = {"bua": hovered_bua};	
+		hover_dict = {"ttwa": hovered_ttwa};	
 	}
 
 export function doHover_chart(e) {
@@ -104,11 +104,11 @@ export let hover_name_finder = function(mapKey){
     $: hover_name_finder(mapKey);
 	$: hover_data_finder(mapKey);
     $: map_variable_lookup;
-    $: hovered_bua;
+    $: hovered_ttwa;
     $: hover_dict;
 
 //For the scatter/jitter plots, let's attempt to do LAD and MSOA in the same frame.
-getData('./data/data_bua_full.csv')
+getData('./data/data_ttwa.csv')
 	.then(arr => {
 		let meta = arr.map(d => ({
 				code: d.code,
@@ -119,23 +119,18 @@ getData('./data/data_bua_full.csv')
 			meta.forEach(d => {
 				lookup[d.code] = d;
 			});
-			metadata.bua.array = meta;
-			metadata.bua.lookup = lookup;
+			metadata.ttwa.array = meta;
+			metadata.ttwa.lookup = lookup;
 			let indicators = arr.map((d, i) => ({
 				...meta[i],
-				classification: d.classification,
-				// test: d.test,
+				classification: d.classification
 			}));
 
-			// add in colour
             ['classification'].forEach(key => {
 					indicators.forEach((d, i) => indicators[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
 				});
-			// ['test'].forEach(key => {
-			// 		indicators.forEach((d, i) => indicators[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
-			// 	});
 			
-				data.bua.indicators = indicators;
+				data.ttwa.indicators = indicators;
 			});
 
 //DATA inputs
@@ -182,26 +177,26 @@ getTopo(topojson, 'data').then(geo => {
 <!-- HTML part -->
 
 
-{#if geojson && data.bua.indicators}
+{#if geojson && data.ttwa.indicators}
 <Scroller {threshold} bind:index bind:offset bind:id={id['map']} splitscreen={true}>
 	<div slot="background">
 		<figure>
 			<div class="col-full height-full">
 			<Map style={mapstyle} bind:map interactive={false} location={{bounds: mapbounds.uk}}>
 				<MapSource
-					id="bua"
+					id="ttwa"
 					type="geojson"
 					data={geojson}
 					promoteId="GeoCode"
 					maxzoom={13}>
 					<MapLayer
-						id="bua-fill"
+						id="ttwa-fill"
 						idKey="code"
 						colorKey={mapKey + "_color"}
-						data={data.bua.indicators}
+						data={data.ttwa.indicators}
 						type="fill"
 						select {selected} on:select={(e) => doSelect(e, map, geojson)} clickIgnore={!explore}
-						hover {hovered_bua} on:hover={doHover}
+						hover {hovered_ttwa} on:hover={doHover}
 						highlight highlighted={mapHighlighted}
 						paint={{
 						'fill-color': ['case',
@@ -212,12 +207,12 @@ getTopo(topojson, 'data').then(geo => {
 						}}
 					>
 					<MapTooltip content = {
-								hovered_bua ? `${metadata.bua.lookup[hovered_bua].name}<br/><strong>${data.bua.indicators.find(d => d.code == hovered_bua)[mapKey].toLocaleString()} ${units[mapKey]}</strong>` : ''
+								hovered_ttwa ? `${metadata.ttwa.lookup[hovered_ttwa].name}<br/><strong>${data.ttwa.indicators.find(d => d.code == hovered_ttwa)[mapKey].toLocaleString()} ${units[mapKey]}</strong>` : ''
 							}
 					/>
 					</MapLayer>
 					<MapLayer
-						id="bua-line"
+						id="ttwa-line"
 						type="line"
 						paint={{
 							'line-color': ['case',
