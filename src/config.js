@@ -64,6 +64,7 @@ export const themes = {
       'cluster1': '',
       'cluster2': '',
       'cluster3': '',
+      'classification': '',
     };
     
 

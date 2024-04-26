@@ -207,7 +207,7 @@ getTopo(topojson, 'data').then(geo => {
 						}}
 					>
 					<MapTooltip content = {
-								hovered_ttwa ? `${metadata.ttwa.lookup[hovered_ttwa].name}<br/><strong>${data.ttwa.indicators.find(d => d.code == hovered_ttwa)['classification'].toLocaleString()} ${units[mapKey]}</strong>` : ''
+								hovered_ttwa ? `${metadata.ttwa.lookup[hovered_ttwa].name}<br/><strong>${data.ttwa.indicators.find(d => d.code == hovered_ttwa)[mapKey].toLocaleString()} ${units[mapKey]}</strong>` : ''
 							}
 					/>
 					</MapLayer>
