@@ -51,3 +51,5 @@ convert_json("BUA22_hscaa")
 convert_json("BUA22_h")
 convert_json("BUA22_dca")
 convert_json("BUA22_utac")
+
+convert_json("ttwa_2011")
