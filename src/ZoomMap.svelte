@@ -31,8 +31,8 @@
 	let index;
 
     // Constants
-	const topojson = "./data/LAD.json";
-    const bua_topojson = "./data/BUA22.json"
+	const topojson = "./data/jsons/LAD.json";
+    const bua_topojson = "./data/jsons/BUA22.json"
 	const mapstyle = "https://bothness.github.io/ons-basemaps/data/style-omt.json";
 
 // Data
@@ -168,7 +168,7 @@ getData('./data/data_bua.csv')
 			}));
 
             ['cluster1','cluster2','cluster3'].forEach(key => {
-                indicators.forEach((d, i) => indicators[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
+                indicators.forEach((d, i) => indicators[i][key + '_color'] = getColor(d[key], map_variable_lookup['cluster'].scale, map_variable_lookup['cluster'].scale_colours));
 				});
 			
 				data.bua.indicators = indicators;

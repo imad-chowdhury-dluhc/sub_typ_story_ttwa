@@ -31,12 +31,12 @@
 	let index;
 
     // Constants
-	const topojson = "./data/BUA22.json";
-    const umh_topojson = "./data/BUA22_umh.json"
-    const hscaa_topojson = "./data/BUA22_hscaa.json"
-    const h_topojson = "./data/BUA22_h.json"
-    const dca_topojson = "./data/BUA22_dca.json"
-    const utac_topojson = "./data/BUA22_utac.json"
+	const topojson = "./data/jsons/BUA22.json";
+    const umh_topojson = "./data/jsons/BUA22_umh.json"
+    const hscaa_topojson = "./data/jsons/BUA22_hscaa.json"
+    const h_topojson = "./data/jsons/BUA22_h.json"
+    const dca_topojson = "./data/jsons/BUA22_dca.json"
+    const utac_topojson = "./data/jsons/BUA22_utac.json"
 	const mapstyle = "https://bothness.github.io/ons-basemaps/data/style-omt.json";
 
 // Data
@@ -54,7 +54,7 @@
 	// State
 	let selected; // Selected area (chart or map)
 	let mapHighlighted = []; // Highlighted area (map only)
-	let mapKey = "GVA"; // Key for data to be displayed on map
+	let mapKey = "cluster2_umh"; // Key for data to be displayed on map
 	let explore = false; // Allows chart/map interactivity to be toggled on/off
 
     let hov = ''; 
@@ -175,7 +175,7 @@ getData('./data/data_bua.csv')
 			}));
 
             ['cluster2_umh'].forEach(key => {
-                indicators1.forEach((d, i) => indicators1[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
+                indicators1.forEach((d, i) => indicators1[i][key + '_color'] = getColor(d[key], map_variable_lookup['cluster'].scale, map_variable_lookup['cluster'].scale_colours));
 				});
 			
 				data.bua_umh.indicators = indicators1;
@@ -187,7 +187,7 @@ getData('./data/data_bua.csv')
 			}));
 
             ['cluster2_hscaa'].forEach(key => {
-                indicators2.forEach((d, i) => indicators2[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
+                indicators2.forEach((d, i) => indicators2[i][key + '_color'] = getColor(d[key], map_variable_lookup['cluster'].scale, map_variable_lookup['cluster'].scale_colours));
 				});
 			
 				data.bua_hscaa.indicators = indicators2;
@@ -199,7 +199,7 @@ getData('./data/data_bua.csv')
 			}));
 
             ['cluster2_h'].forEach(key => {
-                indicators3.forEach((d, i) => indicators3[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
+                indicators3.forEach((d, i) => indicators3[i][key + '_color'] = getColor(d[key], map_variable_lookup['cluster'].scale, map_variable_lookup['cluster'].scale_colours));
 				});
 			
 				data.bua_h.indicators = indicators3;
@@ -211,7 +211,7 @@ getData('./data/data_bua.csv')
 			}));
 
             ['cluster2_dca'].forEach(key => {
-                indicators4.forEach((d, i) => indicators4[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
+                indicators4.forEach((d, i) => indicators4[i][key + '_color'] = getColor(d[key], map_variable_lookup['cluster'].scale, map_variable_lookup['cluster'].scale_colours));
 				});
 			
 				data.bua_dca.indicators = indicators4;
@@ -223,7 +223,7 @@ getData('./data/data_bua.csv')
 			}));
 
             ['cluster2_utac'].forEach(key => {
-                indicators5.forEach((d, i) => indicators5[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
+                indicators5.forEach((d, i) => indicators5[i][key + '_color'] = getColor(d[key], map_variable_lookup['cluster'].scale, map_variable_lookup['cluster'].scale_colours));
 				});
 			
 				data.bua_utac.indicators = indicators5;
@@ -317,7 +317,7 @@ getTopo(topojson, 'data').then(geo => {
 	<div slot="background">
 		<figure>
 			<div class="col-full height-full">
-			<Map style={mapstyle} bind:map interactive={false} location={{bounds: mapbounds.uk}}>
+			<Map style={mapstyle} bind:map interactive={false} location={{bounds: mapbounds.england}}>
 				<MapSource
 					id="bua"
 					type="geojson"

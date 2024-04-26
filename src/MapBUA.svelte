@@ -31,7 +31,7 @@
 	let index;
 
     // Constants
-	const topojson = "./data/BUA22_full.json";
+	const topojson = "./data/jsons/BUA22_full.json";
 	const mapstyle = "https://bothness.github.io/ons-basemaps/data/style-omt.json";
 
 // Data
@@ -44,7 +44,7 @@
 	// State
 	let selected; // Selected area (chart or map)
 	let mapHighlighted = []; // Highlighted area (map only)
-	let mapKey = "cluster1"; // Key for data to be displayed on map
+	let mapKey = "cluster"; // Key for data to be displayed on map
 	let explore = false; // Allows chart/map interactivity to be toggled on/off
 
     let hov = ''; 
@@ -123,11 +123,10 @@ getData('./data/data_bua_full.csv')
 			metadata.bua.lookup = lookup;
 			let indicators = arr.map((d, i) => ({
 				...meta[i],
-				classification: d.classification,
-				inc: d.inc,
+				classification: d.classification
 			}));
 
-            ['classification','inc'].forEach(key => {
+            ['classification'].forEach(key => {
 					indicators.forEach((d, i) => indicators[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
 				});
 			

@@ -18,19 +18,12 @@
 	setContext("theme", theme);
 	setColors(themes, theme);
 
-	import MoveMap from "./MoveMap.svelte";
-	import MoveMapBUA from "./MoveMapBUA.svelte";
-	import MapSpread from "./MapSpread.svelte";
-	import Choropleths from "./Choropleths.svelte";
-    import ZoomMap from "./ZoomMap.svelte";
-	import AddPoints from "./AddPoints.svelte";
-	
-	import MoveData from "./MoveData.svelte";
-    import TimeSeries from "./TimeSeries.svelte";
-	import ScatterTransition from "./ScatterTransition.svelte";
-	import ScatterChartTrends from "./ScatterChartTrends.svelte";
-	
-	
+	import MapBUA from "./MapBUA.svelte";
+	import ClusterMap from "./ClusterMap.svelte";
+	import ZoomMap from "./ZoomMap.svelte";
+	import TimeSeries from "./TimeSeries.svelte";
+	import TimeSeries2 from "./TimeSeries2.svelte";
+	import AddPoints from "./AddPoints.svelte";	
 
 </script>
 
@@ -50,53 +43,56 @@
 	<p class="initial"> <strong>Page navigation </strong></p>
 	<p class="hovered">
 	<b style="color: black"> Map elements </b> <br>
-	<a href="#MoveMapBUA"> Move map around </a> <br>
+	<a href="#ClusterMap"> Cluster map in </a> <br>
 	<a href="#ZoomMap"> Zoom map in </a> <br>
-	<a href="#Choropleths"> Choropleths </a> <br>
+	<a href="#TimeSeries"> TimeSeries </a> <br>
+	<a href="#TimeSeries2"> TimeSeries2 </a> <br>
 	<a href="#AddPoints"> Add points </a> <br>
-	<a href="#MapSpread"> Show map spread </a> <br>
 	<b style="color: black"> Scatter plots </b> <br>
-	<a href="#MoveData"> Move data around </a> <br>
 	<a href="#ScatterTransition"> Fancy transitions </a> <br>
-	<a href="#TimeSeries"> Show time series </a> <br>
 </p>
-</div>
+</div> 
 
 <Section>
 	<h2>Big Picture</h2>
 	<p class="mb">
-		Here we'll discuss the details of the project.
+		Here we'll discuss the details of the project. Map showing how we filtered BUAs and what they are: MoveBUA
 	</p>
 	
 </Section>
 
+<MapBUA/>
+
 <Section>
-	<h2>Build up areas</h2>
+	<h2>Model 2 Clustersss</h2>
 	<p class="mb">
-		We'll first look into the range of BUA and explain why we've filtered them as we have.
+		We'll first look into the different cluster names and explore each one.
 	</p>
 	
 </Section>
 
-<MoveMapBUA/>
+
 
 <Section>
-	<h2>Explanation of clustering and each model</h2>
+	<h2>Model 1 vs Model 3 Comparisons</h2>
 	<p class="mb">
-		Chat about model 1.
+		Compare Model 1 and 3 for the West Midlands, Greater Manchester, North West & North East. 
+	</p>
+	
+</Section>
+
+
+
+<Section>
+	<h2>Characteristic differences</h2>
+	<p class="mb">
+		Jitter plots for GVA
 	</p>
 	<p>And a bit about model 2.</p>
 	
 </Section>
 
-<MoveMap/>
-
-<Section>
-	<h2>Then let's do some comparisons </h2>
-	<p class="mb">
-		Compare Model 1 and 3 for the West Midlands, North West & North East. 
-	</p>
-</Section>
+<TimeSeries2/>
 
 <Section>
 	<h2>Some KNN Clusters</h2>
@@ -106,14 +102,6 @@
 </Section>
 
 
-<Section>
-	<h2>Add some jitter plots</h2>
-	<p class="mb">
-		Possible data source options is GVA & IMD. 
-	</p>
-</Section>
-
-<TimeSeries/>
 
 <Divider/>
 

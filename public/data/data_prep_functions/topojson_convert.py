@@ -11,7 +11,8 @@ import topojson as tp
 
 # Define useful objects
 path = 'public/data/'
-path2 = path + 'geojsons/'
+path_geojsons = path + 'geojsons/'
+path_jsons = path + 'jsons/'
 
 #Use Regex to find the column with the ONS area codes. 
 #This means we can change it to 'GeoCode' for all geographies and use the same svelte function to look at boundaries.
@@ -25,7 +26,7 @@ def get_code_column(dataset):
 #Convert files to topojson format and ensure we using CRS svelte code expects
 def convert_json(filename, rename=None, topo=True):
     # Import file
-    shape = geopandas.read_file(f"{path}geojsons/{filename}.geojson")
+    shape = geopandas.read_file(f"{path_geojsons}{filename}.geojson")
 
     # Convert geo type and clean columns
     shape = shape.to_crs('EPSG:4326')
@@ -33,18 +34,16 @@ def convert_json(filename, rename=None, topo=True):
     shape.columns = shape.columns.str.replace(code_col, "GeoCode")
 
     # Save to file
-    savefile = f"{path}{filename}.json" if rename == None else f"{path}{rename}.json"
+    savefile = f"{path_jsons}{filename}.json" if rename == None else f"{path_jsons}{rename}.json"
     if topo:
         tp.Topology(shape).to_json(savefile)
     else:
         shape.to_file(savefile, driver="GeoJSON") 
 
 # Save files
-convert_json("tees_lsoas")
 convert_json("Local_Authority_Districts_December_2021_GB_BUC_2022_1023427260691650215", rename="LAD")
 convert_json("BUA_2022_GB_-8042218937152150708", rename="BUA22_full")
 convert_json("BUA22_towns", topo=False)
-convert_json("LA_centroid", topo=False)
 convert_json("BUA22_KNN")
 convert_json("BUA22")
 convert_json("BUA22_umh")

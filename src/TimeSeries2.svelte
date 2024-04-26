@@ -41,9 +41,10 @@
 
     let hovered;
 	let xKey = "jitter"; // xKey for scatter chart
-	let yKey = "gva"; // yKey for scatter chart
+	let yKey = "imd"; // yKey for scatter chart
 	let zKey = "cluster_name"; // zKey (color) for scatter chart
 	let rKey = null; // rKey (radius) for scatter chart
+	let plot_yScale = '';
     let explore = false; // Allows chart/map interactivity to be toggled on/off
 	
 
@@ -97,16 +98,18 @@ getData('./data/data_bua.csv')
 		chart: { // Actions for <Scroller/> with id="map"
 		chart01: () => {
 				xKey = "jitter";
-				yKey = "gva";
+				yKey = "imd";
 				zKey = "cluster_name";
                 rKey = null;
+				plot_yScale = '';
 				explore = false;
 			},
 			chart02: () => {
 				xKey = "jitter";
-				yKey = "imd";
+				yKey = "gva";
 				zKey = "cluster_name";
                 rKey = null;
+				plot_yScale = 'log';
 				explore = false;
 			}
 		}
@@ -144,6 +147,7 @@ getData('./data/data_bua.csv')
                         padding.top = 40
 						{xKey} {yKey} {zKey} {rKey} idKey="code" labelKey="name"
 						r={[5]}
+						yScale = {plot_yScale}
                         yMax = 1000
 						xMax = 6
 						xMin = 0
@@ -168,6 +172,14 @@ getData('./data/data_bua.csv')
 				<a id="TimeSeries2" style="color: black"><br><br></a>
 				<p>
 					IMD data (made up).
+				</p>
+			</div>
+		</section>
+		<section data-id="chart02">
+			<div class="col-medium">
+				<a id="TimeSeries2" style="color: black"><br><br></a>
+				<p>
+					GVA data (made up).
 				</p>
 			</div>
 		</section>

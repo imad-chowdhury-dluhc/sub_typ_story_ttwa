@@ -6,7 +6,7 @@
 	import { themes } from "./config.js";
 	import Scroller from "./layout/Scroller.svelte";
 	import Em from "./ui/Em.svelte";
-	import ColourScaleLegend from "./map_components/ColourScaleLegend.svelte";
+	import ColourScaleLegend_10 from "./map_components/ColourScaleLegend_10.svelte";
 	
     // DEMO-SPECIFIC IMPORTS
 	//import bbox from "@turf/bbox";
@@ -31,13 +31,13 @@
 	let index;
 
     // Constants
-	const topojson = "./data/tees_lsoas.json";
-    const point_json = "./data/LA_centroid.json"
+	const topojson = "./data/jsons/BUA22_KNN.json";
+    const point_json = "./data/jsons/BUA22_towns.json"
 	const mapstyle = "https://bothness.github.io/ons-basemaps/data/style-omt.json";
 
 // Data
-    let data = {lsoa: {}, point: {}};
-	let metadata = {lsoa: {}, point: {}};
+    let data = {bua: {}, point: {}};
+	let metadata = {bua: {}, point: {}};
 	let geojson;
     let point_geo;
 	let LA_opac = 0.7;
@@ -46,12 +46,12 @@
 	// State
 	let selected; // Selected area (chart or map)
 	let mapHighlighted = []; // Highlighted area (map only)
-	let mapKey = "GVA2020"; // Key for data to be displayed on map
+	let mapKey = "KNN"; // Key for data to be displayed on map
 	let explore = false; // Allows chart/map interactivity to be toggled on/off
 
     let hov = ''; 
     let hover_dict = {};
-    let hovered_lsoa; // Hovered lsoa (chart or map)
+    let hovered_bua; // Hovered bua (chart or map)
     let hovered_point;
 
     	// Functions for chart and map on:select and on:hover events
@@ -61,12 +61,12 @@
 	}
 	
 	export function doHover(e) {
-		hovered_lsoa = '';
+		hovered_bua = '';
         hovered_point = '';
 		if (e.detail.id !== null){
 			let feature_id =  e.detail.id;
-      if (e.detail.feature.source == 'lsoa'){
-				hovered_lsoa = feature_id; 
+      if (e.detail.feature.source == 'bua'){
+				hovered_bua = feature_id; 
 			}
             else if (e.detail.feature.source == 'point'){
                 hovered_point = feature_id;
@@ -75,7 +75,7 @@
 				hovered = feature_id;
 			}
 		}
-		hover_dict = {"lsoa": hovered_lsoa, "point": hovered_point};	
+		hover_dict = {"bua": hovered_bua, "point": hovered_point};	
 	}
 
 export function doHover_chart(e) {
@@ -110,11 +110,11 @@ export let hover_name_finder = function(mapKey){
     $: hover_name_finder(mapKey);
 	$: hover_data_finder(mapKey);
     $: map_variable_lookup;
-    $: hovered_lsoa;
+    $: hovered_bua;
     $: hover_dict;
 
-//For the scatter/jitter plots, let's attempt to do lsoa and MSOA in the same frame.
-getData('./data/data_lsoa.csv')
+//For the scatter/jitter plots, let's attempt to do bua and MSOA in the same frame.
+getData('./data/data_KNN.csv')
 	.then(arr => {
 		let meta = arr.map(d => ({
 				code: d.code,
@@ -125,23 +125,18 @@ getData('./data/data_lsoa.csv')
 			meta.forEach(d => {
 				lookup[d.code] = d;
 			});
-			metadata.lsoa.array = meta;
-			metadata.lsoa.lookup = lookup;
+			metadata.bua.array = meta;
+			metadata.bua.lookup = lookup;
 			let indicators = arr.map((d, i) => ({
 				...meta[i],
-                GVA2020: d.GVA2020,
-                GVA2020_faint: d.GVA2020,
-                GVA2015: d.GVA2015,
-                GVA2010: d.GVA2010,
-                GVA2005: d.GVA2005,
-                workplace_pop: d.workplace_pop,
+                KNN: d.KNN,
 			}));
 
-            ['GVA2020', 'GVA2015', 'GVA2010', 'GVA2005', 'workplace_pop', 'GVA2020_faint'].forEach(key => {
+            ['KNN'].forEach(key => {
                 indicators.forEach((d, i) => indicators[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
 				});
 			
-				data.lsoa.indicators = indicators;
+				data.bua.indicators = indicators;
 			});
 
             getData(`./data/data_points.csv`)
@@ -173,14 +168,20 @@ getData('./data/data_lsoa.csv')
 	const actions = {
 		map: { // Actions for <Scroller/> with id="map"
 		map01: () => {
-				fitBounds(mapbounds.teesside, map);
-				mapKey = "GVA2020";
+				fitBounds(mapbounds.england, map);
+				mapKey = "KNN";
 				mapHighlighted = [];
 				explore = false;
 			},
             map02: () => {
-				fitBounds(mapbounds.teesside, map);
-				mapKey = "GVA2020_faint";
+				fitBounds(mapbounds.england, map);
+				mapKey = "KNN";
+				mapHighlighted = [];
+				explore = false;
+			},
+            map03: () => {
+				fitBounds(mapbounds.blackpool, map);
+				mapKey = "KNN";
 				mapHighlighted = [];
 				explore = false;
 			}		}
@@ -204,36 +205,30 @@ getData('./data/data_lsoa.csv')
 <!-- HTML part -->
 
 
-{#if geojson && data.lsoa.indicators}
+{#if geojson && data.bua.indicators}
 <Scroller {threshold} bind:index bind:offset bind:id={id['map']} splitscreen={true}>
 	<div slot="background">
 		<figure>
             <div id="points-legend" class="legend" style="display: none; left: 60%, width: 35%; position: absolute">
-				<h4>Local Authorities</h4>
-				<div><span style="background-color: #DF0667"></span>Middlesbrough</div>
-				<div><span style="background-color: #A8BD3A"></span>Darlington</div>
-				<div><span style="background-color: #FBC900"></span>Stockton-on-Tees</div>
-				<div><span style="background-color: #27A0CC"></span>Hartlepool</div>
-				<div><span style="background-color: #206095"></span>Redcar and Cleveland</div>
-				<div><span style="background-color: #0F8243"></span>County Durham</div>
-				
+				<h4>Funds</h4>
+				<div><span style="background-color: #206095"></span>55 Towns</div>
 			</div>
 			<div class="col-full height-full">
-			<Map style={mapstyle} bind:map interactive={false} location={{bounds: mapbounds.teesside}}>
+			<Map style={mapstyle} bind:map interactive={false} location={{bounds: mapbounds.england}}>
 				<MapSource
-					id="lsoa"
+					id="bua"
 					type="geojson"
 					data={geojson}
 					promoteId="GeoCode"
 					maxzoom={13}>
 					<MapLayer
-						id="lsoa-fill"
+						id="bua-fill"
 						idKey="code"
 						colorKey={mapKey + "_color"}
-						data={data.lsoa.indicators}
+						data={data.bua.indicators}
 						type="fill"
 						select {selected} on:select={(e) => doSelect(e, map, geojson)} clickIgnore={!explore}
-						hover {hovered_lsoa} on:hover={doHover}
+						hover {hovered_bua} on:hover={doHover}
 						highlight highlighted={mapHighlighted}
 						paint={{
 						'fill-color': ['case',
@@ -244,12 +239,12 @@ getData('./data/data_lsoa.csv')
 						}}
 					>
 					<MapTooltip content = {
-								hovered_lsoa ? `${metadata.lsoa.lookup[hovered_lsoa].name}<br/><strong>${data.lsoa.indicators.find(d => d.code == hovered_lsoa)[mapKey].toLocaleString()} ${units[mapKey]}</strong>` : ''
+								hovered_bua ? `${metadata.bua.lookup[hovered_bua].name}<br/><strong>${data.bua.indicators.find(d => d.code == hovered_bua)[mapKey].toLocaleString()} ${units[mapKey]}</strong>` : ''
 							}
 					/>
 					</MapLayer>
 					<MapLayer
-						id="lsoa-line"
+						id="bua-line"
 						type="line"
 						paint={{
 							'line-color': ['case',
@@ -280,15 +275,54 @@ getData('./data/data_lsoa.csv')
                             type="circle"
                             hover {hovered_point} on:hover={doHover}
                             paint={{
-                                'circle-color': ['match', ['get', 'LAD21NM'],        
-                                'Middlebrough', '#DF0667',                
-                                'Darlington', '#A8BD3A', 
-                                'Stockton-on-Tees', '#FBC900',
-                                'Hartlepool', '#27A0CC',
-                                'Redcar and Cleveland', '#206095',
-                                'County Durham', '#0F8243',   
-                                'red'], 
-                                'circle-radius':20
+                                'circle-color': ['match', ['get', 'BUA22NM'],        
+                                'Workington', '#206095',
+								'Harrogate', '#206095',
+								'Nelson (Pendle)', '#206095',
+								'Pudsey', '#206095',
+								'Rothwell (Leeds)', '#206095',
+								'Accrington', '#206095',
+								'Blackburn (Blackburn with Darwen)', '#206095',
+								'Leyland', '#206095',
+								'Scunthorpe', '#206095',
+								'Formby', '#206095',
+								'Barnsley', '#206095',
+								'Whitefield', '#206095',
+								'Wigan', '#206095',
+								'Urmston', '#206095',
+								'St Helens (St. Helens)', '#206095',
+								'Altrincham', '#206095',
+								'Ilkeston', '#206095',
+								'Grantham', '#206095',
+								'Burton upon Trent', '#206095',
+								'Rugeley', '#206095',
+								'Coalville', '#206095',
+								'Norwich', '#206095',
+								'Lichfield', '#206095',
+								'Burntwood', '#206095',
+								'Tamworth', '#206095',
+								'March', '#206095',
+								'Wednesbury', '#206095',
+								'Rowley Regis', '#206095',
+								'Smethwick', '#206095',
+								'Daventry', '#206095',
+								'St Neots', '#206095',
+								'Bedford', '#206095',
+								'Felixstowe', '#206095',
+								"Bishop's Stortford", '#206095',
+								'Aylesbury', '#206095',
+								'Berkhamsted', '#206095',
+								'Chelmsford', '#206095',
+								'Cheshunt', '#206095',
+								'Didcot', '#206095',
+								'Stanford-le-Hope', '#206095',
+								'Sittingbourne', '#206095',
+								'Sandhurst (Bracknell Forest)', '#206095',
+								'Shoreham-by-Sea', '#206095',
+								'Ryde', '#206095',
+								'St Austell', '#206095',
+                                '#206095'], 
+                                'circle-radius':8
                                 }}
                             >
                             <MapTooltip content = {
@@ -304,7 +338,7 @@ getData('./data/data_lsoa.csv')
             </MapSource>
 			</Map>
 			</div>
-            <ColourScaleLegend 
+            <ColourScaleLegend_10 
             map_key = {mapKey}
             hov = {hover_dict[map_variable_lookup[mapKey].geography]}
             highlighted_val = {(hover_dict[map_variable_lookup[mapKey].geography])? ((hover_data_finder(mapKey) == 'Data unavailable')? '-' : hover_data_finder(mapKey)): ''}
@@ -317,14 +351,21 @@ getData('./data/data_lsoa.csv')
 			<div class="col-medium">
                 <a id="AddPoints" style="color: black"><br><br></a>
 				<p>
-					This is the LSOA data for GVA.
+					Blackpool's top 9 Nearest Neighbours
 				</p>
 			</div>
 		</section>
 		<section data-id="map02">
 			<div class="col-medium">
 				<p>
-                    We can add points on top. In this case, these are the centroids of Local Authorities, which aren't especially interesting. However, we can introduce a hover which tells us the name of each point alongside the legend which we can bring up on this transition.
+                    Add the 55 town deals
+				</p>
+			</div>
+		</section>
+		<section data-id="map03">
+			<div class="col-medium">
+				<p>
+                    Zoom into Blackpool
 				</p>
 			</div>
 		</section>
