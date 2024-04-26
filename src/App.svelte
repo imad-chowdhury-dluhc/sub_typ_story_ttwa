@@ -19,7 +19,8 @@
 	setColors(themes, theme);
 
 	import MapBUA from "./MapBUA.svelte";
-	import MapTTWA from "./MapTTWA.svelte";
+	// import MapBUA_edits from "./MapBUA_edits.svelte";
+	// import MapTTWA from "./MapTTWA.svelte";
 	import ClusterMap from "./ClusterMap.svelte";
 	import ZoomMap from "./ZoomMap.svelte";
 	import TimeSeries from "./TimeSeries.svelte";
@@ -62,7 +63,8 @@
 	
 </Section>
 
-<MapTTWA/>
+<!-- <MapBUA_edits/> -->
+<MapBUA/>
 
 <Section>
 	<h2>Model 2 Clustersss</h2>

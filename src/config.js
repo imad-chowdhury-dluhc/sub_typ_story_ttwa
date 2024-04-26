@@ -54,6 +54,8 @@ export const themes = {
     'cluster2_h': {'geography' : 'bua', 'full_name' : 'Model 1 Cluster', 'avg': 100, 'scale': [-0.5,0.5,1.5,2.5,3.5,4.5], 'scale_string': ['Urban Multicultural hubs', 'High Skilled City adjacent areas', 'Hinterlands', 'Deprived coastal areas', 'University towns and cities'], 'scale_colours': colors.seq_5},
     'cluster2_dca': {'geography' : 'bua', 'full_name' : 'Model 1 Cluster', 'avg': 100, 'scale': [-0.5,0.5,1.5,2.5,3.5,4.5], 'scale_string': ['Urban Multicultural hubs', 'High Skilled City adjacent areas', 'Hinterlands', 'Deprived coastal areas', 'University towns and cities'], 'scale_colours': colors.seq_5},
     'cluster2_utac': {'geography' : 'bua', 'full_name' : 'Model 1 Cluster', 'avg': 100, 'scale': [-0.5,0.5,1.5,2.5,3.5,4.5], 'scale_string': ['Urban Multicultural hubs', 'High Skilled City adjacent areas', 'Hinterlands', 'Deprived coastal areas', 'University towns and cities'], 'scale_colours': colors.seq_5},
+    
+    'test': {'geography' : 'bua', 'full_name' : 'gva', 'avg': 450, 'scale': [1, 2, 3], 'scale_string': ['low', 'medium', 'high'], 'scale_colours': ['#ffffcc','#a1dab4','#41b6c4']},
     }
 
     export const units = {
@@ -65,6 +67,7 @@ export const themes = {
       'cluster2': '',
       'cluster3': '',
       'classification': '',
+      'test': 'test',
     };
     
 

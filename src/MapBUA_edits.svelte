@@ -4,9 +4,9 @@
 	import { setContext, onMount } from "svelte";
 	import { getMotion } from "./utils.js";
 	import { themes } from "./config.js";
-	import Scroller from "./layout/Scroller.svelte";
-	import Em from "./ui/Em.svelte";
-	import ColourScaleLegend from "./map_components/ColourScaleLegend_copy.svelte";
+	import Scroller from "./layout/Scroller.svelte.js";
+	import Em from "./ui/Em.svelte.js";
+	import ColourScaleLegend from "./map_components/ColourScaleLegend_copy.svelte.js";
 	
     // DEMO-SPECIFIC IMPORTS
 	//import bbox from "@turf/bbox";
@@ -124,11 +124,14 @@ getData('./data/data_bua_full.csv')
 			let indicators = arr.map((d, i) => ({
 				...meta[i],
 				classification: d.classification,
-				// gva: d.gva,
+				test: d.test,
 			}));
 
 			// add in colour
             ['classification'].forEach(key => {
+					indicators.forEach((d, i) => indicators[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
+				});
+			['test'].forEach(key => {
 					indicators.forEach((d, i) => indicators[i][key + '_color'] = getColor(d[key], map_variable_lookup[key].scale, map_variable_lookup[key].scale_colours));
 				});
 			
