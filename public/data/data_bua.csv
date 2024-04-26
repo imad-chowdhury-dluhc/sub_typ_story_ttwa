@@ -1,0 +1,458 @@
+code,name,gva,imd,cluster1,cluster1_umh,cluster1_hscaa,cluster1_h,cluster1_dca,cluster1_utac,cluster1_name,cluster1_jitter,cluster2,cluster2_name,cluster2_jitter,cluster3,cluster3_name,cluster3_jitter,cluster
+E63000040,Ashington (Northumberland),62.28603131,657.021322,0,0,10,10,10,10,Urban Multicultural hubs,1.088683142,3,Deprived coastal areas,3.818454577,4,University towns and cities,4.954293426,0
+E63000077,Newcastle upon Tyne,85.73537345,580.4781,0,0,10,10,10,10,Urban Multicultural hubs,1.118562599,1,High Skilled City adjacent areas,1.990538011,1,High Skilled City adjacent areas,1.75673689,0
+E63000125,Sunderland,4.9366166,1.078784,0,0,10,10,10,10,Urban Multicultural hubs,0.798608419,1,High Skilled City adjacent areas,1.961767633,2,Hinterlands,3.8115283,0
+E63000268,Workington,59.357515,809.442674,0,0,10,10,10,10,Urban Multicultural hubs,0.820519861,1,High Skilled City adjacent areas,1.898840631,2,Hinterlands,3.047624805,0
+E63000326,Whitehaven,51.64589634,266.789139,0,0,10,10,10,10,Urban Multicultural hubs,0.840276124,3,Deprived coastal areas,4.012966959,0,Urban Multicultural hubs,0.882909402,0
+E63000560,Lancaster,14.53538504,397.454877,0,0,10,10,10,10,Urban Multicultural hubs,1.093230862,3,Deprived coastal areas,4.187687623,0,Urban Multicultural hubs,0.931706185,0
+E63000601,Harrogate,55.76498152,59.886553,0,0,10,10,10,10,Urban Multicultural hubs,0.792417186,2,Hinterlands,2.859232466,2,Hinterlands,2.965395328,0
+E63000936,Rawtenstall,432.7503302,323.617567,0,0,10,10,10,10,Urban Multicultural hubs,0.970860171,4,University towns and cities,4.868712848,0,Urban Multicultural hubs,0.762875387,0
+E630029,Southport,76.338968,598.912037,0,0,10,10,10,10,Urban Multicultural hubs,1.228322025,1,High Skilled City adjacent areas,1.76579564,3,Deprived coastal areas,3.814063212,0
+E63001155,Formby,77.38335765,531.463536,0,0,10,10,10,10,Urban Multicultural hubs,1.15212891,0,Urban Multicultural hubs,0.861569169,2,Hinterlands,2.958538029,0
+E63001179,Westhoughton,243.4779198,717.88862,0,0,10,10,10,10,Urban Multicultural hubs,1.199937534,0,Urban Multicultural hubs,0.950768391,1,High Skilled City adjacent areas,1.993948765,0
+E63001199,Orrell,251.843749,589.374798,0,0,10,10,10,10,Urban Multicultural hubs,1.095122762,1,High Skilled City adjacent areas,1.9038209,2,Hinterlands,2.978620272,0
+E63001232,Maghull,88.32086682,756.233194,0,0,10,10,10,10,Urban Multicultural hubs,0.925699158,1,High Skilled City adjacent areas,1.995156088,1,High Skilled City adjacent areas,2.030466522,0
+E63001268,Ashton-under-Lyne,65.97411671,133.052802,0,0,10,10,10,10,Urban Multicultural hubs,0.857515324,1,High Skilled City adjacent areas,2.201901367,0,Urban Multicultural hubs,1.163723286,0
+E63001318,Newton-le-Willows,83.67559544,868.881782,0,0,10,10,10,10,Urban Multicultural hubs,0.846714767,2,Hinterlands,3.167543039,3,Deprived coastal areas,3.878637854,0
+E63001365,Prescot,0.3507832,322.849495,0,0,10,10,10,10,Urban Multicultural hubs,1.22399458,2,Hinterlands,3.096890346,3,Deprived coastal areas,3.944633873,0
+E63001795,Kirkby-in-Ashfield,8.3440615,336.905179,0,0,10,10,10,10,Urban Multicultural hubs,1.115988462,2,Hinterlands,3.042521141,3,Deprived coastal areas,4.037662093,0
+E63002256,Burton upon Trent,123.2982657,406.165263,0,0,10,10,10,10,Urban Multicultural hubs,0.789318445,0,Urban Multicultural hubs,0.985087407,3,Deprived coastal areas,4.143569337,0
+E63002336,Rugeley,125.48611,251.247535,0,0,10,10,10,10,Urban Multicultural hubs,0.972696365,1,High Skilled City adjacent areas,1.903789139,4,University towns and cities,5.145175438,0
+E63002505,Telford,69.1660583,318.318698,0,0,10,10,10,10,Urban Multicultural hubs,0.990462993,0,Urban Multicultural hubs,0.801851669,1,High Skilled City adjacent areas,2.192212657,0
+E63002526,Burntwood,33.0238023,280.148708,0,0,10,10,10,10,Urban Multicultural hubs,0.945717868,1,High Skilled City adjacent areas,1.898257654,0,Urban Multicultural hubs,1.156980616,0
+E63002720,Peterborough,85.70326217,813.323613,0,0,10,10,10,10,Urban Multicultural hubs,0.884767468,3,Deprived coastal areas,4.186023486,2,Hinterlands,2.800521834,0
+E63002757,Darlaston,148.6209643,495.747321,0,0,10,10,10,10,Urban Multicultural hubs,1.053679875,3,Deprived coastal areas,3.783416616,3,Deprived coastal areas,3.895754015,0
+E63002901,Market Harborough,122.2895728,564.002451,0,0,10,10,10,10,Urban Multicultural hubs,0.951336233,2,Hinterlands,2.8052997,1,High Skilled City adjacent areas,2.237173287,0
+E63003736,Ipswich,188.6152572,546.525874,0,0,10,10,10,10,Urban Multicultural hubs,1.222701348,2,Hinterlands,3.16483549,4,University towns and cities,4.916204769,0
+E63003818,Banbury,251.8360922,602.785726,0,0,10,10,10,10,Urban Multicultural hubs,0.916879961,1,High Skilled City adjacent areas,2.244884333,2,Hinterlands,2.880681415,0
+E63003977,Letchworth,8.1716993,257.799893,0,0,10,10,10,10,Urban Multicultural hubs,1.067559494,2,Hinterlands,3.192291924,3,Deprived coastal areas,4.054535822,0
+E63004031,Hitchin,47.00131304,11.427881,0,0,10,10,10,10,Urban Multicultural hubs,0.963192055,4,University towns and cities,4.956121902,3,Deprived coastal areas,3.916375394,0
+E63004191,Bishop's Stortford,160.3192949,583.675289,0,0,10,10,10,10,Urban Multicultural hubs,0.966623136,2,Hinterlands,3.025051764,1,High Skilled City adjacent areas,1.769318649,0
+E63004449,Hemel Hempstead,71.05098384,327.6456,0,0,10,10,10,10,Urban Multicultural hubs,0.913118883,1,High Skilled City adjacent areas,1.786285885,3,Deprived coastal areas,4.126452598,0
+E63004542,Cheshunt,85.867693,488.1615,0,0,10,10,10,10,Urban Multicultural hubs,0.996093269,1,High Skilled City adjacent areas,1.944362175,0,Urban Multicultural hubs,0.864472175,0
+E63004713,Brentwood,288.2985264,142.490919,0,0,10,10,10,10,Urban Multicultural hubs,1.07732649,1,High Skilled City adjacent areas,2.3028658,3,Deprived coastal areas,3.868913115,0
+E63004759,Rayleigh,41.85568787,360.157888,0,0,10,10,10,10,Urban Multicultural hubs,1.093772504,0,Urban Multicultural hubs,1.193738175,2,Hinterlands,3.148493422,0
+E63004905,Bradley Stoke,127.2063024,476.122148,0,0,10,10,10,10,Urban Multicultural hubs,0.981313843,2,Hinterlands,2.827237493,0,Urban Multicultural hubs,1.164920587,0
+E63005130,Sunbury-on-Thames,75.50269234,434.127495,0,0,10,10,10,10,Urban Multicultural hubs,0.988069157,2,Hinterlands,3.090987897,2,Hinterlands,2.8954529,0
+E63005181,Wokingham,457.3544552,846.009852,0,0,10,10,10,10,Urban Multicultural hubs,1.176419372,4,University towns and cities,5.064773802,2,Hinterlands,3.029726614,0
+E63005212,Chatham,59.76612584,163.194213,0,0,10,10,10,10,Urban Multicultural hubs,0.862769068,4,University towns and cities,4.763097249,1,High Skilled City adjacent areas,2.121961444,0
+E630054,Canterbury,75.93188,208.562316,0,0,10,10,10,10,Urban Multicultural hubs,1.223254469,1,High Skilled City adjacent areas,2.2353188,4,University towns and cities,4.831808315,0
+E63005466,Maidstone,78.4842701,554.2804,0,0,10,10,10,10,Urban Multicultural hubs,0.972212931,4,University towns and cities,4.850152306,3,Deprived coastal areas,4.189865028,0
+E63005478,Great Bookham and Fetcham,51.96034321,44.749697,0,0,10,10,10,10,Urban Multicultural hubs,1.032578904,3,Deprived coastal areas,3.834726638,1,High Skilled City adjacent areas,1.838572604,0
+E63005505,Fleet,159.642406,384.263955,0,0,10,10,10,10,Urban Multicultural hubs,1.071273299,1,High Skilled City adjacent areas,2.1586336,0,Urban Multicultural hubs,0.84395097,0
+E63006230,Chandler's Ford,98.36941578,225.74179,0,0,10,10,10,10,Urban Multicultural hubs,1.229820527,2,Hinterlands,3.079442932,3,Deprived coastal areas,3.756969635,0
+E63006272,Eastleigh,34.76058855,18.681235,0,0,10,10,10,10,Urban Multicultural hubs,0.82661546,3,Deprived coastal areas,4.0895536,2,Hinterlands,2.820268293,0
+E63006542,Lancing and Sompting,61.43845981,554.468512,0,0,10,10,10,10,Urban Multicultural hubs,0.774359368,1,High Skilled City adjacent areas,2.203996765,3,Deprived coastal areas,4.083451935,0
+E63006744,Newport (Isle of Wight),111.5866263,581.357845,0,0,10,10,10,10,Urban Multicultural hubs,0.880923965,3,Deprived coastal areas,3.949805878,1,High Skilled City adjacent areas,2.176978096,0
+E63006861,Newton Abbot,158.3523868,88.140134,0,0,10,10,10,10,Urban Multicultural hubs,1.23435071,3,Deprived coastal areas,3.966902566,2,Hinterlands,3.228122493,0
+E63006926,Plymouth,85.58206733,558.985339,0,0,10,10,10,10,Urban Multicultural hubs,0.969112399,3,Deprived coastal areas,3.858393777,3,Deprived coastal areas,4.243616932,0
+E63006998,Truro,88.13701426,325.370362,0,0,10,10,10,10,Urban Multicultural hubs,0.756580465,2,Hinterlands,3.02033345,2,Hinterlands,2.823057225,0
+E63000053,Cramlington,157.3833412,423.329806,1,10,1,10,10,10,High Skilled City adjacent areas,2.228633512,0,Urban Multicultural hubs,0.946798987,4,University towns and cities,4.782805497,1
+E63000061,Whitley Bay,112.8218349,6.803897,1,10,1,10,10,10,High Skilled City adjacent areas,1.823032256,4,University towns and cities,4.838350257,1,High Skilled City adjacent areas,2.180450607,1
+E63000087,South Shields,53.04603264,734.1373,1,10,1,10,10,10,High Skilled City adjacent areas,2.136153854,3,Deprived coastal areas,4.14774404,2,Hinterlands,3.233627569,1
+E63000090,Hebburn,28.59318878,900.090592,1,10,1,10,10,10,High Skilled City adjacent areas,1.979375687,3,Deprived coastal areas,4.018571246,4,University towns and cities,5.150236502,1
+E63000094,Jarrow,1.7933973,391.448758,1,10,1,10,10,10,High Skilled City adjacent areas,1.803985222,2,Hinterlands,3.072794092,4,University towns and cities,4.8653807,1
+E63000133,Carlisle,156.4532271,961.292529,1,10,1,10,10,10,High Skilled City adjacent areas,2.558445,2,Hinterlands,2.9499966,1,High Skilled City adjacent areas,1.909033692,1
+E63000232,Spennymoor,164.9235356,992.306448,1,10,1,10,10,10,High Skilled City adjacent areas,1.877090817,1,High Skilled City adjacent areas,1.750909456,1,High Skilled City adjacent areas,1.980012404,1
+E63000267,Bishop Auckland,50.41849503,620.140499,1,10,1,10,10,10,High Skilled City adjacent areas,1.880928868,1,High Skilled City adjacent areas,1.999786503,3,Deprived coastal areas,3.8088439,1
+E63000283,Newton Aycliffe,3.2525357,755.116236,1,10,1,10,10,10,High Skilled City adjacent areas,2.082994553,2,Hinterlands,2.980177233,2,Hinterlands,2.890655649,1
+E63000298,Billingham,115.523226,837.1433,1,10,1,10,10,10,High Skilled City adjacent areas,1.888477232,2,Hinterlands,2.917827672,0,Urban Multicultural hubs,0.928671709,1
+E63000316,Eston,56.43827572,789.14174,1,10,1,10,10,10,High Skilled City adjacent areas,1.777282982,1,High Skilled City adjacent areas,1.819724034,4,University towns and cities,5.092822779,1
+E63000521,Barrow-in-Furness,23.43446613,596.545964,1,10,1,10,10,10,High Skilled City adjacent areas,1.951827076,4,University towns and cities,4.985941455,4,University towns and cities,5.208171931,1
+E63000726,Beverley,31.01894085,69.918531,1,10,1,10,10,10,High Skilled City adjacent areas,1.919805944,3,Deprived coastal areas,3.8643511,1,High Skilled City adjacent areas,1.943621566,1
+E63000746,Nelson (Pendle),289.0241503,760.647012,1,10,1,10,10,10,High Skilled City adjacent areas,1.762919807,0,Urban Multicultural hubs,0.846645836,1,High Skilled City adjacent areas,1.8498176,1
+E63000792,Blackpool,208.9356061,370.724769,1,10,1,10,10,10,High Skilled City adjacent areas,1.816682407,2,Hinterlands,3.02276714,3,Deprived coastal areas,3.9160676,1
+E63000800,Burnley,222.2282643,297.766346,1,10,1,10,10,10,High Skilled City adjacent areas,2.236546052,2,Hinterlands,3.077688508,3,Deprived coastal areas,3.840425046,1
+E63000803,Bradford,71.67420127,6.522887,1,10,1,10,10,10,High Skilled City adjacent areas,1.887408453,2,Hinterlands,3.144266305,3,Deprived coastal areas,3.937155783,1
+E63000807,Fulwood,81.85444724,563.595268,1,10,1,10,10,10,High Skilled City adjacent areas,1.767655621,2,Hinterlands,2.893276023,3,Deprived coastal areas,3.769646755,1
+E63000869,Blackburn (Blackburn with Darwen),88.46213236,329.660334,1,10,1,10,10,10,High Skilled City adjacent areas,2.129074462,3,Deprived coastal areas,4.096940338,3,Deprived coastal areas,3.937370842,1
+E63000957,Pontefract,60.45559734,370.147918,1,10,1,10,10,10,High Skilled City adjacent areas,1.852243782,3,Deprived coastal areas,4.069706397,4,University towns and cities,5.220160968,1
+E630069,Rochdale,54.38250041,599.298959,1,10,1,10,10,10,High Skilled City adjacent areas,1.884274585,2,Hinterlands,2.853054484,2,Hinterlands,2.813115806,1
+E630095,Horwich,33.66620512,27.184792,1,10,1,10,10,10,High Skilled City adjacent areas,2.158828997,1,High Skilled City adjacent areas,1.764789115,1,High Skilled City adjacent areas,2.080584592,1
+E63001112,Scunthorpe,83.76922071,946.297625,1,10,1,10,10,10,High Skilled City adjacent areas,2.136736966,3,Deprived coastal areas,3.8641714,3,Deprived coastal areas,3.764016729,1
+E63001152,Ormskirk,56.91496656,486.605293,1,10,1,10,10,10,High Skilled City adjacent areas,1.923460007,2,Hinterlands,2.844814061,2,Hinterlands,2.783488514,1
+E63001173,Whitefield,1.62225,885.758158,1,10,1,10,10,10,High Skilled City adjacent areas,2.6892639,2,Hinterlands,2.929205811,1,High Skilled City adjacent areas,1.841697531,1
+E63001192,Oldham,60.83390803,164.703764,1,10,1,10,10,10,High Skilled City adjacent areas,1.806804504,3,Deprived coastal areas,4.003126722,0,Urban Multicultural hubs,1.1164732,1
+E63001213,Atherton,46.64116714,709.181228,1,10,1,10,10,10,High Skilled City adjacent areas,1.889869919,1,High Skilled City adjacent areas,2.0699911,3,Deprived coastal areas,4.018072291,1
+E63001269,Ashton-in-Makerfield,80.59645771,92.063315,1,10,1,10,10,10,High Skilled City adjacent areas,2.091361403,1,High Skilled City adjacent areas,1.945306506,3,Deprived coastal areas,3.766911569,1
+E63001274,Salford,63.519959,5.020175,1,10,1,10,10,10,High Skilled City adjacent areas,1.90588418,1,High Skilled City adjacent areas,2.1344822,4,University towns and cities,4.823694878,1
+E63001285,Droylsden,160.7586719,536.49562,1,10,1,10,10,10,High Skilled City adjacent areas,2.112541306,3,Deprived coastal areas,3.993274338,0,Urban Multicultural hubs,1.055781366,1
+E63001295,Manchester,1.3172342,286.849523,1,10,1,10,10,10,High Skilled City adjacent areas,1.902697774,1,High Skilled City adjacent areas,2.021804682,2,Hinterlands,3.118395593,1
+E63001305,Old Trafford,91.6560027,945.073439,1,10,1,10,10,10,High Skilled City adjacent areas,1.961724587,4,University towns and cities,4.924539944,2,Hinterlands,3.069460096,1
+E63001320,Hyde (Tameside),114.0757712,814.668632,1,10,1,10,10,10,High Skilled City adjacent areas,1.954865689,4,University towns and cities,4.940302219,2,Hinterlands,3.157460259,1
+E63001321,Urmston,114.000827,419.52463,1,10,1,10,10,10,High Skilled City adjacent areas,2.00871851,1,High Skilled City adjacent areas,1.769661157,2,Hinterlands,3.041548123,1
+E63001339,Reddish,13.07760296,971.6711,1,10,1,10,10,10,High Skilled City adjacent areas,1.827406985,3,Deprived coastal areas,3.825506566,0,Urban Multicultural hubs,1.124605039,1
+E63001374,Liverpool,128.5551164,444.88753,1,10,1,10,10,10,High Skilled City adjacent areas,1.975662476,3,Deprived coastal areas,3.946117416,3,Deprived coastal areas,3.770643527,1
+E63001395,Altrincham,5.8013642,708.783954,1,10,1,10,10,10,High Skilled City adjacent areas,1.839894515,1,High Skilled City adjacent areas,1.8815866,1,High Skilled City adjacent areas,2.217697666,1
+E63001423,Hazel Grove,59.628253,942.963097,1,10,1,10,10,10,High Skilled City adjacent areas,1.992632733,1,High Skilled City adjacent areas,1.922883191,3,Deprived coastal areas,3.816587485,1
+E63001424,Sheffield,66.08069131,782.701903,1,10,1,10,10,10,High Skilled City adjacent areas,1.949402969,2,Hinterlands,2.9720777,1,High Skilled City adjacent areas,2.1794605,1
+E63001429,Cheadle Hulme,83.49839746,78.53285,1,10,1,10,10,10,High Skilled City adjacent areas,1.964733949,3,Deprived coastal areas,4.170379962,1,High Skilled City adjacent areas,1.760349525,1
+E63001481,Runcorn,96.29625089,913.984221,1,10,1,10,10,10,High Skilled City adjacent areas,1.788303301,1,High Skilled City adjacent areas,2.053121757,4,University towns and cities,4.813730037,1
+E63001489,Wilmslow,260.09618,586.155851,1,10,1,10,10,10,High Skilled City adjacent areas,1.831642022,0,Urban Multicultural hubs,0.907904226,3,Deprived coastal areas,4.180747949,1
+E63001591,Macclesfield,51.212953,935.17267,1,10,1,10,10,10,High Skilled City adjacent areas,1.862940748,0,Urban Multicultural hubs,1.148845145,2,Hinterlands,3.219889347,1
+E63001616,Chesterfield,169.1396002,299.794868,1,10,1,10,10,10,High Skilled City adjacent areas,2.027084828,1,High Skilled City adjacent areas,2.181304819,0,Urban Multicultural hubs,0.75401282,1
+E63001650,Lincoln,235.2828466,437.085965,1,10,1,10,10,10,High Skilled City adjacent areas,1.840957161,0,Urban Multicultural hubs,1.131159334,1,High Skilled City adjacent areas,2.053787039,1
+E63001717,Skegness,75.72492635,840.184624,1,10,1,10,10,10,High Skilled City adjacent areas,2.094723086,3,Deprived coastal areas,3.937444396,4,University towns and cities,4.977217054,1
+E63001740,Mansfield,121.3089612,785.23172,1,10,1,10,10,10,High Skilled City adjacent areas,1.883563826,2,Hinterlands,2.974175779,3,Deprived coastal areas,3.962716833,1
+E63001882,Ripley (Amber Valley),123.1489066,867.889096,1,10,1,10,10,10,High Skilled City adjacent areas,2.127377245,2,Hinterlands,2.79886513,3,Deprived coastal areas,4.228693514,1
+E63001889,Hucknall,63.644381,730.709609,1,10,1,10,10,10,High Skilled City adjacent areas,1.811226094,1,High Skilled City adjacent areas,1.8041452,0,Urban Multicultural hubs,0.930488996,1
+E63001952,Boston,162.0932418,386.296258,1,10,1,10,10,10,High Skilled City adjacent areas,1.924072458,4,University towns and cities,4.7603266,3,Deprived coastal areas,3.861525637,1
+E63002057,Beeston (Broxtowe),68.69392522,853.198256,1,10,1,10,10,10,High Skilled City adjacent areas,2.246099528,3,Deprived coastal areas,3.938152367,2,Hinterlands,3.2168243,1
+E63002069,Grantham,126.1285451,31.540388,1,10,1,10,10,10,High Skilled City adjacent areas,1.76855912,2,Hinterlands,3.186355726,1,High Skilled City adjacent areas,1.867187508,1
+E63002259,Stafford,305.7628283,255.532596,1,10,1,10,10,10,High Skilled City adjacent areas,2.211962583,4,University towns and cities,5.017599407,1,High Skilled City adjacent areas,1.850380839,1
+E63002284,King's Lynn,154.8164318,747.954128,1,10,1,10,10,10,High Skilled City adjacent areas,2.046004481,2,Hinterlands,2.783717184,2,Hinterlands,3.038626252,1
+E63002317,Loughborough,125.5782596,775.114949,1,10,1,10,10,10,High Skilled City adjacent areas,2.078252422,0,Urban Multicultural hubs,1.241358736,4,University towns and cities,4.971767384,1
+E63002408,Coalville,129.0166569,534.087036,1,10,1,10,10,10,High Skilled City adjacent areas,1.913876648,0,Urban Multicultural hubs,1.024818062,3,Deprived coastal areas,3.841479999,1
+E63002444,Shrewsbury,63.30185805,760.215887,1,10,1,10,10,10,High Skilled City adjacent areas,2.3288128,1,High Skilled City adjacent areas,1.858020726,1,High Skilled City adjacent areas,2.187309461,1
+E63002711,Wigston,158.3481634,328.358352,1,10,1,10,10,10,High Skilled City adjacent areas,1.769331897,3,Deprived coastal areas,3.955925566,2,Hinterlands,3.242678055,1
+E63002713,Wolverhampton,234.1926377,897.692482,1,10,1,10,10,10,High Skilled City adjacent areas,1.912849603,1,High Skilled City adjacent areas,1.750088572,0,Urban Multicultural hubs,0.8422896,1
+E63002748,March,167.9404602,475.95891,1,10,1,10,10,10,High Skilled City adjacent areas,1.847934137,1,High Skilled City adjacent areas,1.976630895,0,Urban Multicultural hubs,0.806321194,1
+E63002772,Bilston (Wolverhampton),133.0967347,805.851387,1,10,1,10,10,10,High Skilled City adjacent areas,2.126836783,0,Urban Multicultural hubs,1.232005938,1,High Skilled City adjacent areas,1.981430175,1
+E63002782,Wednesbury,38.94218578,949.072976,1,10,1,10,10,10,High Skilled City adjacent areas,2.074728737,2,Hinterlands,3.15062983,2,Hinterlands,3.050034997,1
+E63002862,Dudley (Dudley),326.3761921,924.57414,1,10,1,10,10,10,High Skilled City adjacent areas,2.177713096,1,High Skilled City adjacent areas,2.200464808,1,High Skilled City adjacent areas,1.926972877,1
+E63002880,Oldbury (Sandwell),98.81342778,969.620566,1,10,1,10,10,10,High Skilled City adjacent areas,2.018875487,3,Deprived coastal areas,4.012025522,0,Urban Multicultural hubs,0.801597386,1
+E63002884,Kingswinford,154.8649395,523.872705,1,10,1,10,10,10,High Skilled City adjacent areas,2.128419341,0,Urban Multicultural hubs,0.974379619,2,Hinterlands,2.920949342,1
+E63002887,Rowley Regis,38.83033419,684.37457,1,10,1,10,10,10,High Skilled City adjacent areas,2.064282003,4,University towns and cities,4.958161298,4,University towns and cities,5.22143893,1
+E63002958,Thetford,6.1128231,850.1735,1,10,1,10,10,10,High Skilled City adjacent areas,1.75948845,1,High Skilled City adjacent areas,2.0129077,4,University towns and cities,5.080483262,1
+E63003006,Coventry,113.3781191,4.139814,1,10,1,10,10,10,High Skilled City adjacent areas,2.227654539,0,Urban Multicultural hubs,0.784279362,3,Deprived coastal areas,3.843532358,1
+E63003152,Kenilworth,138.3019074,651.285968,1,10,1,10,10,10,High Skilled City adjacent areas,2.240038138,0,Urban Multicultural hubs,1.145989963,3,Deprived coastal areas,4.079469662,1
+E63003157,Stourport-on-Severn,361.4075528,616.7856,1,10,1,10,10,10,High Skilled City adjacent areas,2.007713709,2,Hinterlands,2.807278133,4,University towns and cities,5.243166836,1
+E63003230,Wellingborough,73.57674859,887.465778,1,10,1,10,10,10,High Skilled City adjacent areas,2.236982718,1,High Skilled City adjacent areas,1.816604071,1,High Skilled City adjacent areas,1.928957405,1
+E63003390,Northampton,55.41240349,990.314313,1,10,1,10,10,10,High Skilled City adjacent areas,2.159453725,0,Urban Multicultural hubs,0.775075506,0,Urban Multicultural hubs,1.080551334,1
+E63003403,St Neots,156.5222747,454.981989,1,10,1,10,10,10,High Skilled City adjacent areas,2.148826661,1,High Skilled City adjacent areas,2.085822683,3,Deprived coastal areas,4.094214672,1
+E63003443,Cambridge (Cambridge),87.14236965,8.58437,1,10,1,10,10,10,High Skilled City adjacent areas,1.818513614,3,Deprived coastal areas,4.235948971,3,Deprived coastal areas,4.017792592,1
+E63003597,Bedford,135.0837343,167.78512,1,10,1,10,10,10,High Skilled City adjacent areas,1.889233203,3,Deprived coastal areas,4.016884312,2,Hinterlands,2.801679665,1
+E63003740,Biggleswade,91.06418163,972.790334,1,10,1,10,10,10,High Skilled City adjacent areas,2.158166431,1,High Skilled City adjacent areas,2.073871305,4,University towns and cities,5.043980959,1
+E63003770,Evesham,137.9736417,694.841513,1,10,1,10,10,10,High Skilled City adjacent areas,1.971582614,3,Deprived coastal areas,3.885698814,2,Hinterlands,3.131358027,1
+E63004145,Luton,9.95019,404.287224,1,10,1,10,10,10,High Skilled City adjacent areas,2.118219178,2,Hinterlands,2.945052167,2,Hinterlands,3.246859155,1
+E63004154,Bicester,114.9654834,209.922027,1,10,1,10,10,10,High Skilled City adjacent areas,2.193443591,0,Urban Multicultural hubs,0.79950245,3,Deprived coastal areas,3.765907837,1
+E63004173,Cheltenham,116.1807969,320.481,1,10,1,10,10,10,High Skilled City adjacent areas,1.751406807,4,University towns and cities,5.082752033,2,Hinterlands,3.169738819,1
+E63004269,Gloucester,277.1925324,778.65933,1,10,1,10,10,10,High Skilled City adjacent areas,2.030961184,4,University towns and cities,5.084637553,2,Hinterlands,3.123506009,1
+E63004405,Witney,96.53015983,949.602587,1,10,1,10,10,10,High Skilled City adjacent areas,2.156749738,2,Hinterlands,2.965805521,1,High Skilled City adjacent areas,1.849964125,1
+E63004408,Harlow,408.4916685,700.461578,1,10,1,10,10,10,High Skilled City adjacent areas,2.07791283,2,Hinterlands,3.013237984,1,High Skilled City adjacent areas,1.752778501,1
+E63004421,Hatfield,256.9085167,633.682039,1,10,1,10,10,10,High Skilled City adjacent areas,2.09024646,3,Deprived coastal areas,3.933232197,0,Urban Multicultural hubs,0.880899527,1
+E63004427,Hoddesdon,97.99484746,320.680544,1,10,1,10,10,10,High Skilled City adjacent areas,1.998049375,4,University towns and cities,4.994780451,4,University towns and cities,5.180987812,1
+E63004442,Chelmsford,158.6860489,369.414,1,10,1,10,10,10,High Skilled City adjacent areas,2.092970855,2,Hinterlands,2.839527793,3,Deprived coastal areas,3.770591731,1
+E63004443,Maldon,182.0174996,665.0738,1,10,1,10,10,10,High Skilled City adjacent areas,2.033623859,2,Hinterlands,2.839873037,2,Hinterlands,3.057787959,1
+E63004665,Borehamwood,39.08321661,872.698363,1,10,1,10,10,10,High Skilled City adjacent areas,1.959500134,2,Hinterlands,3.075631923,1,High Skilled City adjacent areas,2.032164734,1
+E63004708,Rickmansworth,176.4084913,796.34295,1,10,1,10,10,10,High Skilled City adjacent areas,2.02917317,1,High Skilled City adjacent areas,1.988829274,1,High Skilled City adjacent areas,2.149985379,1
+E63004808,Thundersley and South Benfleet,323.5649417,841.095761,1,10,1,10,10,10,High Skilled City adjacent areas,2.062185424,3,Deprived coastal areas,3.80073683,3,Deprived coastal areas,3.907058479,1
+E63004820,Southend-on-Sea,70.98135816,205.846035,1,10,1,10,10,10,High Skilled City adjacent areas,2.093266284,0,Urban Multicultural hubs,0.965403541,4,University towns and cities,5.135522685,1
+E63004884,Yate,203.7418337,680.264807,1,10,1,10,10,10,High Skilled City adjacent areas,1.864870123,4,University towns and cities,5.236558015,2,Hinterlands,3.167399297,1
+E63004897,South Ockendon,74.7566737,651.079874,1,10,1,10,10,10,High Skilled City adjacent areas,2.012975506,4,University towns and cities,4.857518486,1,High Skilled City adjacent areas,1.793517047,1
+E63005008,Caversham,69.23948357,343.11854,1,10,1,10,10,10,High Skilled City adjacent areas,1.786829218,1,High Skilled City adjacent areas,1.77413393,4,University towns and cities,4.847649932,1
+E63005018,Kingswood and Fishponds,68.29036572,151.044427,1,10,1,10,10,10,High Skilled City adjacent areas,2.055158957,4,University towns and cities,4.77833972,2,Hinterlands,3.184815451,1
+E63005039,Northfleet,81.77041962,929.582286,1,10,1,10,10,10,High Skilled City adjacent areas,1.863889285,4,University towns and cities,4.954161119,4,University towns and cities,4.862508636,1
+E63005045,Chippenham (Wiltshire),84.37485707,287.08071,1,10,1,10,10,10,High Skilled City adjacent areas,2.078343429,3,Deprived coastal areas,4.201985562,3,Deprived coastal areas,4.22245215,1
+E63005058,Gravesend,218.8999138,748.715453,1,10,1,10,10,10,High Skilled City adjacent areas,1.859694154,2,Hinterlands,2.969898016,0,Urban Multicultural hubs,0.860566841,1
+E630055,Staines-upon-Thames,46.36740729,2.420425,1,10,1,10,10,10,High Skilled City adjacent areas,1.936308801,3,Deprived coastal areas,4.231831625,3,Deprived coastal areas,4.144742682,1
+E63005149,Broadstairs,135.1514268,678.865773,1,10,1,10,10,10,High Skilled City adjacent areas,1.8042992,2,Hinterlands,3.114763867,2,Hinterlands,2.936773922,1
+E63005192,Walton-on-Thames,844.496858,916.665354,1,10,1,10,10,10,High Skilled City adjacent areas,1.925500922,1,High Skilled City adjacent areas,2.140163833,1,High Skilled City adjacent areas,1.781802556,1
+E63005342,Camberley,128.6612873,923.186713,1,10,1,10,10,10,High Skilled City adjacent areas,1.973999498,1,High Skilled City adjacent areas,2.0960586,0,Urban Multicultural hubs,0.905933605,1
+E63005580,Reigate,196.2828065,526.478819,1,10,1,10,10,10,High Skilled City adjacent areas,1.807950064,1,High Skilled City adjacent areas,1.797443479,3,Deprived coastal areas,4.086885006,1
+E63005598,Redhill (Reigate and Banstead),6.9935302,690.663859,1,10,1,10,10,10,High Skilled City adjacent areas,1.755458473,3,Deprived coastal areas,3.807241844,1,High Skilled City adjacent areas,2.139232549,1
+E63005631,Frome,78.87889617,120.607585,1,10,1,10,10,10,High Skilled City adjacent areas,1.957736249,3,Deprived coastal areas,3.890387173,0,Urban Multicultural hubs,0.881170653,1
+E63005680,Farnham,126.4379297,417.27827,1,10,1,10,10,10,High Skilled City adjacent areas,1.838039548,3,Deprived coastal areas,4.125951834,1,High Skilled City adjacent areas,1.853672948,1
+E63005912,Bridgwater,124.0617618,472.301177,1,10,1,10,10,10,High Skilled City adjacent areas,1.935456218,3,Deprived coastal areas,4.015792455,4,University towns and cities,5.056928009,1
+E63005982,Barnstaple,75.11649513,701.98084,1,10,1,10,10,10,High Skilled City adjacent areas,1.865839745,4,University towns and cities,4.967738025,3,Deprived coastal areas,3.774719431,1
+E63006040,Crowborough,115.0790879,151.978589,1,10,1,10,10,10,High Skilled City adjacent areas,2.141877635,3,Deprived coastal areas,3.857597674,4,University towns and cities,5.227065745,1
+E63006064,Winchester,127.989572,199.483346,1,10,1,10,10,10,High Skilled City adjacent areas,2.090197862,2,Hinterlands,2.870828082,2,Hinterlands,3.185942936,1
+E63006170,Haywards Heath,173.2544972,434.357424,1,10,1,10,10,10,High Skilled City adjacent areas,1.796384521,2,Hinterlands,2.965227603,0,Urban Multicultural hubs,1.02363872,1
+E63006275,Burgess Hill,82.15500651,688.279739,1,10,1,10,10,10,High Skilled City adjacent areas,1.826506974,1,High Skilled City adjacent areas,2.0727447,4,University towns and cities,4.770869771,1
+E63006386,Hedge End,82.27786823,496.00452,1,10,1,10,10,10,High Skilled City adjacent areas,2.088977927,1,High Skilled City adjacent areas,1.95650155,2,Hinterlands,3.068754753,1
+E63006406,Horndean,146.2573936,184.400267,1,10,1,10,10,10,High Skilled City adjacent areas,2.193403996,0,Urban Multicultural hubs,1.222852823,3,Deprived coastal areas,4.224220453,1
+E63006464,Hailsham,425.0884436,807.292367,1,10,1,10,10,10,High Skilled City adjacent areas,2.178780483,0,Urban Multicultural hubs,1.094736004,3,Deprived coastal areas,3.834837904,1
+E63006507,Havant,56.486138,408.444143,1,10,1,10,10,10,High Skilled City adjacent areas,2.130704349,0,Urban Multicultural hubs,1.221452224,1,High Skilled City adjacent areas,1.780886697,1
+E63006509,Locks Heath,5.8588642,528.861917,1,10,1,10,10,10,High Skilled City adjacent areas,1.868424995,1,High Skilled City adjacent areas,2.1564583,4,University towns and cities,4.751792573,1
+E63006527,Fareham,356.545549,375.090669,1,10,1,10,10,10,High Skilled City adjacent areas,2.242443264,3,Deprived coastal areas,4.011206931,0,Urban Multicultural hubs,0.918931413,1
+E63006538,Shoreham-by-Sea,121.7401535,836.932807,1,10,1,10,10,10,High Skilled City adjacent areas,1.99538491,3,Deprived coastal areas,3.99925067,1,High Skilled City adjacent areas,1.938661697,1
+E63006541,Chichester,193.2462956,643.926525,1,10,1,10,10,10,High Skilled City adjacent areas,2.221821335,1,High Skilled City adjacent areas,1.982228669,4,University towns and cities,4.908424825,1
+E63006618,Bognor Regis,84.0669881,794.006356,1,10,1,10,10,10,High Skilled City adjacent areas,1.84541322,1,High Skilled City adjacent areas,2.230626482,3,Deprived coastal areas,3.893276898,1
+E63006626,Seaford,58.88741331,895.1291,1,10,1,10,10,10,High Skilled City adjacent areas,2.0092566,1,High Skilled City adjacent areas,2.086276375,2,Hinterlands,3.134605382,1
+E63006696,"Christchurch (Bournemouth, Christchurch and Poole)",199.0138001,650.0972,1,10,1,10,10,10,High Skilled City adjacent areas,1.785628443,3,Deprived coastal areas,4.208361479,2,Hinterlands,2.860455,1
+E63006699,Bournemouth,209.9150412,819.566077,1,10,1,10,10,10,High Skilled City adjacent areas,2.013415025,3,Deprived coastal areas,3.826739097,2,Hinterlands,2.972267571,1
+E63006720,Poole,52.66097563,67.006136,1,10,1,10,10,10,High Skilled City adjacent areas,1.875532385,2,Hinterlands,2.969081164,1,High Skilled City adjacent areas,2.078908863,1
+E63006721,Ryde,3.4937469,193.859334,1,10,1,10,10,10,High Skilled City adjacent areas,1.855475631,3,Deprived coastal areas,4.206067857,1,High Skilled City adjacent areas,1.99797251,1
+E63006804,Weymouth,78.39088452,406.866338,1,10,1,10,10,10,High Skilled City adjacent areas,1.878260549,4,University towns and cities,5.24997702,3,Deprived coastal areas,4.19839461,1
+E63006916,Paignton,166.5806113,807.555856,1,10,1,10,10,10,High Skilled City adjacent areas,2.118326232,3,Deprived coastal areas,3.97616939,0,Urban Multicultural hubs,0.802370248,1
+E63006956,St Austell,67.37225598,209.993266,1,10,1,10,10,10,High Skilled City adjacent areas,1.8497392,4,University towns and cities,4.780015487,1,High Skilled City adjacent areas,2.114322929,1
+E63000072,Longbenton,54.64803697,628.954508,2,10,10,2,10,10,Hinterlands,3.191861204,1,High Skilled City adjacent areas,1.998495621,4,University towns and cities,4.905526283,2
+E63000073,Tynemouth,8.92045,809.257279,2,10,10,2,10,10,Hinterlands,2.989490192,3,Deprived coastal areas,3.992262551,0,Urban Multicultural hubs,0.991711937,2
+E63000111,Gateshead,0.6049734,70.793994,2,10,10,2,10,10,Hinterlands,3.138720205,2,Hinterlands,3.142914051,3,Deprived coastal areas,3.758802455,2
+E63000124,Washington,120.5804813,286.773228,2,10,10,2,10,10,Hinterlands,3.173421798,1,High Skilled City adjacent areas,1.789721858,2,Hinterlands,3.015945779,2
+E63000158,Chester-le-Street,135.784965,192.39821,2,10,10,2,10,10,Hinterlands,3.085513189,2,Hinterlands,2.835622752,2,Hinterlands,3.073922461,2
+E63000161,Consett,351.2650189,868.1551,2,10,10,2,10,10,Hinterlands,3.191633633,1,High Skilled City adjacent areas,1.883383698,1,High Skilled City adjacent areas,2.008298499,2
+E63000242,Hartlepool,54.84696481,949.627261,2,10,10,2,10,10,Hinterlands,2.840339147,2,Hinterlands,3.234873544,4,University towns and cities,4.878604097,2
+E63000288,Redcar,167.4935578,590.708197,2,10,10,2,10,10,Hinterlands,3.230417086,3,Deprived coastal areas,4.209604607,3,Deprived coastal areas,4.13171286,2
+E63000311,Stockton-on-Tees,56.99280616,3.661391,2,10,10,2,10,10,Hinterlands,2.764086154,1,High Skilled City adjacent areas,1.755073929,3,Deprived coastal areas,3.783640078,2
+E63000425,Scarborough,39.759984,55.78517,2,10,10,2,10,10,Hinterlands,2.990048482,1,High Skilled City adjacent areas,2.073755795,1,High Skilled City adjacent areas,1.967777279,2
+E63000551,Morecambe,5.583144,189.473178,2,10,10,2,10,10,Hinterlands,3.0872306,1,High Skilled City adjacent areas,2.046588728,2,Hinterlands,2.911128727,2
+E63000727,Bingley,25.47160469,650.724985,2,10,10,2,10,10,Hinterlands,2.954524498,3,Deprived coastal areas,3.842461123,2,Hinterlands,2.830983953,2
+E63000751,Shipley (Bradford),91.29222918,747.568812,2,10,10,2,10,10,Hinterlands,3.201876508,1,High Skilled City adjacent areas,1.977555369,2,Hinterlands,3.225830845,2
+E63000789,Pudsey,221.0551505,640.937241,2,10,10,2,10,10,Hinterlands,3.218564692,0,Urban Multicultural hubs,0.850024011,3,Deprived coastal areas,4.237450991,2
+E63000825,Kingston upon Hull,66.70567448,300.085233,2,10,10,2,10,10,Hinterlands,2.92446662,3,Deprived coastal areas,3.885390008,1,High Skilled City adjacent areas,2.122313215,2
+E63000855,Lytham St Anne's,73.76133832,324.502314,2,10,10,2,10,10,Hinterlands,2.805183442,2,Hinterlands,3.087983998,2,Hinterlands,3.192877255,2
+E63000874,Penwortham,257.9893564,493.979157,2,10,10,2,10,10,Hinterlands,2.944904019,1,High Skilled City adjacent areas,1.95153893,1,High Skilled City adjacent areas,2.0123546,2
+E63000945,Darwen,47.59682243,558.729234,2,10,10,2,10,10,Hinterlands,3.073303947,0,Urban Multicultural hubs,0.8627047,1,High Skilled City adjacent areas,2.193623415,2
+E63000947,Leyland,4.5146579,532.639721,2,10,10,2,10,10,Hinterlands,3.126138088,2,Hinterlands,2.763367844,1,High Skilled City adjacent areas,2.189424702,2
+E63000970,Dewsbury,159.179131,367.3626,2,10,10,2,10,10,Hinterlands,2.921659396,2,Hinterlands,3.21126304,3,Deprived coastal areas,3.932459926,2
+E63000971,Wakefield,6.858692,126.496471,2,10,10,2,10,10,Hinterlands,3.047030549,1,High Skilled City adjacent areas,1.960792034,4,University towns and cities,4.829379211,2
+E63000979,Ossett,305.0375801,582.496871,2,10,10,2,10,10,Hinterlands,2.829507126,0,Urban Multicultural hubs,0.803661362,2,Hinterlands,2.79134079,2
+E630008,Chorley,75.12220842,901.716797,2,10,10,2,10,10,Hinterlands,3.248608625,3,Deprived coastal areas,3.7748228,4,University towns and cities,5.175187165,2
+E630017,Huddersfield,178.4501618,445.962194,2,10,10,2,10,10,Hinterlands,3.211902096,1,High Skilled City adjacent areas,2.0633568,2,Hinterlands,3.071613718,2
+E630019,Bolton (Bolton),335.3391295,6.676778,2,10,10,2,10,10,Hinterlands,3.1572144,3,Deprived coastal areas,4.199583232,3,Deprived coastal areas,4.153368828,2
+E63001118,Heywood,148.989492,451.676879,2,10,10,2,10,10,Hinterlands,3.161179076,2,Hinterlands,2.885088259,1,High Skilled City adjacent areas,1.9704834,2
+E63001128,Grimsby,72.36876025,481.212181,2,10,10,2,10,10,Hinterlands,2.94964374,3,Deprived coastal areas,4.247095173,0,Urban Multicultural hubs,1.19806734,2
+E63001168,Middleton (Rochdale),43.96950946,778.6491,2,10,10,2,10,10,Hinterlands,2.788097318,3,Deprived coastal areas,4.013800287,3,Deprived coastal areas,3.916071343,2
+E63001177,Wigan,113.4646072,904.646264,2,10,10,2,10,10,Hinterlands,3.052720809,2,Hinterlands,2.766287989,2,Hinterlands,3.001593307,2
+E63001198,Hindley,4.4732211,838.729672,2,10,10,2,10,10,Hinterlands,2.946522097,1,High Skilled City adjacent areas,1.884441261,1,High Skilled City adjacent areas,1.87901301,2
+E63001229,Doncaster,191.1530077,473.724111,2,10,10,2,10,10,Hinterlands,3.0962086,2,Hinterlands,2.883869794,2,Hinterlands,3.167292219,2
+E63001273,Crosby (Sefton),44.83285318,59.920972,2,10,10,2,10,10,Hinterlands,3.197047533,3,Deprived coastal areas,3.793235795,1,High Skilled City adjacent areas,2.182750027,2
+E63001281,Eccles (Salford),75.56211287,1.979844,2,10,10,2,10,10,Hinterlands,2.871721697,4,University towns and cities,4.873886215,4,University towns and cities,4.805445345,2
+E63001284,Kirkby,89.63562134,886.542603,2,10,10,2,10,10,Hinterlands,2.978940705,2,Hinterlands,3.129392414,1,High Skilled City adjacent areas,2.183185372,2
+E63001306,Chapeltown and High Green,2.742573,239.395226,2,10,10,2,10,10,Hinterlands,2.8998276,1,High Skilled City adjacent areas,1.858644081,0,Urban Multicultural hubs,1.159225945,2
+E63001357,Wickersley and Bramley,192.9429518,755.438051,2,10,10,2,10,10,Hinterlands,3.245869857,0,Urban Multicultural hubs,0.921751366,3,Deprived coastal areas,3.884484234,2
+E63001362,Wallasey,50.98662836,435.370565,2,10,10,2,10,10,Hinterlands,3.134702255,3,Deprived coastal areas,3.9090349,4,University towns and cities,5.22170317,2
+E63001367,Huyton with Roby,153.5599266,686.449327,2,10,10,2,10,10,Hinterlands,2.866779609,2,Hinterlands,3.039822824,1,High Skilled City adjacent areas,2.141721987,2
+E63001403,Birkenhead,190.6382541,131.941882,2,10,10,2,10,10,Hinterlands,2.844677601,2,Hinterlands,2.928524805,0,Urban Multicultural hubs,0.885138297,2
+E63001468,Heswall,154.27899,770.223397,2,10,10,2,10,10,Hinterlands,2.799056193,2,Hinterlands,3.0530769,4,University towns and cities,4.931877921,2
+E63001487,Retford,84.55054382,629.355963,2,10,10,2,10,10,Hinterlands,2.878566896,2,Hinterlands,3.158205861,2,Hinterlands,3.165584966,2
+E63001685,Winsford,83.32605714,271.287371,2,10,10,2,10,10,Hinterlands,3.244261267,4,University towns and cities,4.917693691,2,Hinterlands,2.911383457,2
+E63001754,Sutton in Ashfield,49.32763039,657.289075,2,10,10,2,10,10,Hinterlands,3.094345277,2,Hinterlands,2.931675126,1,High Skilled City adjacent areas,2.042983458,2
+E63001908,Newcastle-under-Lyme,260.15845,55.639297,2,10,10,2,10,10,Hinterlands,2.814130832,3,Deprived coastal areas,3.862263555,1,High Skilled City adjacent areas,1.954207508,2
+E63001927,Arnold,36.71199758,274.515917,2,10,10,2,10,10,Hinterlands,2.912435189,2,Hinterlands,2.863915587,0,Urban Multicultural hubs,1.001504288,2
+E63001982,Carlton (Gedling),85.84727839,617.387669,2,10,10,2,10,10,Hinterlands,2.955088342,1,High Skilled City adjacent areas,2.006648431,4,University towns and cities,4.859226855,2
+E63001997,Ilkeston,140.9676708,693.726,2,10,10,2,10,10,Hinterlands,3.085937963,0,Urban Multicultural hubs,1.184792849,2,Hinterlands,3.2000774,2
+E63002300,Swadlincote,133.1442423,133.216984,2,10,10,2,10,10,Hinterlands,2.876964261,3,Deprived coastal areas,3.865716451,0,Urban Multicultural hubs,1.1247359,2
+E63002445,Dereham,219.3844014,912.22172,2,10,10,2,10,10,Hinterlands,3.169437113,1,High Skilled City adjacent areas,1.985392822,0,Urban Multicultural hubs,0.8599689,2
+E63002507,Norwich,193.7175823,27.644651,2,10,10,2,10,10,Hinterlands,3.132713446,4,University towns and cities,5.050172301,1,High Skilled City adjacent areas,1.968680716,2
+E63002522,Lichfield,60.98277706,509.905975,2,10,10,2,10,10,Hinterlands,3.165171619,0,Urban Multicultural hubs,1.224272601,1,High Skilled City adjacent areas,1.793631362,2
+E63002637,Gorleston-on-Sea,33.2531,378.992895,2,10,10,2,10,10,Hinterlands,2.889733534,4,University towns and cities,5.190138035,4,University towns and cities,5.006333035,2
+E63002672,Bloxwich,176.0743947,193.943397,2,10,10,2,10,10,Hinterlands,3.248744831,1,High Skilled City adjacent areas,1.803746394,4,University towns and cities,4.9885848,2
+E63002801,Hinckley,166.1268573,826.049747,2,10,10,2,10,10,Hinterlands,2.981597546,1,High Skilled City adjacent areas,2.232455948,0,Urban Multicultural hubs,1.223464419,2
+E63002812,Tipton,97.14935815,845.035979,2,10,10,2,10,10,Hinterlands,3.16592411,2,Hinterlands,2.768413728,3,Deprived coastal areas,3.849445321,2
+E63002815,Coseley,596.9421624,375.339434,2,10,10,2,10,10,Hinterlands,3.143182044,0,Urban Multicultural hubs,0.954154822,1,High Skilled City adjacent areas,1.863630938,2
+E63002876,Corby,125.0246886,212.325119,2,10,10,2,10,10,Hinterlands,3.241495671,3,Deprived coastal areas,4.038899154,3,Deprived coastal areas,4.012944676,2
+E63002889,Smethwick,55.79787814,869.24946,2,10,10,2,10,10,Hinterlands,2.845537293,1,High Skilled City adjacent areas,1.998481342,1,High Skilled City adjacent areas,1.772548999,2
+E63002904,Birmingham,56.63571915,337.124616,2,10,10,2,10,10,Hinterlands,3.17230966,1,High Skilled City adjacent areas,2.017203343,1,High Skilled City adjacent areas,1.821112741,2
+E63002913,Brierley Hill,62.85347465,717.578401,2,10,10,2,10,10,Hinterlands,2.935790451,1,High Skilled City adjacent areas,2.012674673,0,Urban Multicultural hubs,1.085783129,2
+E63002915,Bedworth,171.653787,119.533205,2,10,10,2,10,10,Hinterlands,2.783982504,4,University towns and cities,5.2865471,2,Hinterlands,2.979821497,2
+E63003011,Solihull,161.9427167,907.816246,2,10,10,2,10,10,Hinterlands,2.802842296,4,University towns and cities,5.160611121,3,Deprived coastal areas,4.202977932,2
+E63003049,Kidderminster,73.24150846,807.405375,2,10,10,2,10,10,Hinterlands,3.024149197,3,Deprived coastal areas,4.081118594,0,Urban Multicultural hubs,1.140359941,2
+E63003068,Rugby,351.0489926,5.090554,2,10,10,2,10,10,Hinterlands,2.7914739,1,High Skilled City adjacent areas,2.059439832,3,Deprived coastal areas,4.154357086,2
+E63003308,Warwick,47.4326649,824.675132,2,10,10,2,10,10,Hinterlands,3.217388043,1,High Skilled City adjacent areas,2.008248262,1,High Skilled City adjacent areas,1.983271291,2
+E63003342,Daventry,83.18694513,421.927579,2,10,10,2,10,10,Hinterlands,2.878418797,4,University towns and cities,4.773769368,3,Deprived coastal areas,4.218481575,2
+E63003439,Stowmarket,8.058589,198.180644,2,10,10,2,10,10,Hinterlands,2.9161548,3,Deprived coastal areas,3.961448525,1,High Skilled City adjacent areas,2.056802431,2
+E63003695,Great Malvern,88.91998083,329.26569,2,10,10,2,10,10,Hinterlands,2.9175389,3,Deprived coastal areas,4.140770424,3,Deprived coastal areas,4.2620045,2
+E63003805,Sudbury,161.0823229,160.898004,2,10,10,2,10,10,Hinterlands,2.848435572,0,Urban Multicultural hubs,0.786907834,1,High Skilled City adjacent areas,2.207733875,2
+E63003858,Milton Keynes,40.0948499,642.129235,2,10,10,2,10,10,Hinterlands,2.984573531,0,Urban Multicultural hubs,0.986208056,0,Urban Multicultural hubs,1.1277385,2
+E630044,Colchester,3.4876309,319.755112,2,10,10,2,10,10,Hinterlands,2.893382358,4,University towns and cities,4.916123701,1,High Skilled City adjacent areas,1.988943659,2
+E63004349,Welwyn Garden City,129.5202614,327.315623,2,10,10,2,10,10,Hinterlands,2.755315919,1,High Skilled City adjacent areas,2.049615951,1,High Skilled City adjacent areas,1.843905599,2
+E63004573,Potters Bar,80.3328802,825.820556,2,10,10,2,10,10,Hinterlands,2.8287483,4,University towns and cities,5.137771113,1,High Skilled City adjacent areas,2.231830708,2
+E63004647,Abingdon-on-Thames,2.5142007,956.563028,2,10,10,2,10,10,Hinterlands,2.781612656,3,Deprived coastal areas,4.249047202,3,Deprived coastal areas,3.921626271,2
+E63004690,Watford (Watford),170.0491652,712.24673,2,10,10,2,10,10,Hinterlands,3.2206595,1,High Skilled City adjacent areas,2.245453349,3,Deprived coastal areas,4.028228093,2
+E63004735,High Wycombe,0.343006,497.247579,2,10,10,2,10,10,Hinterlands,3.173426625,3,Deprived coastal areas,3.782811508,0,Urban Multicultural hubs,0.806911565,2
+E63004799,Basildon,69.55801757,774.342395,2,10,10,2,10,10,Hinterlands,2.953339226,4,University towns and cities,4.818990069,3,Deprived coastal areas,4.130018365,2
+E63004848,Swindon (Swindon),62.22331612,664.752625,2,10,10,2,10,10,Hinterlands,3.071818261,4,University towns and cities,5.222423562,1,High Skilled City adjacent areas,2.148523426,2
+E63004875,Canvey Island,89.76185134,269.535376,2,10,10,2,10,10,Hinterlands,3.0724111,2,Hinterlands,3.454089,0,Urban Multicultural hubs,1.076283879,2
+E63004883,Stanford-le-Hope,88.26078784,769.832401,2,10,10,2,10,10,Hinterlands,2.764336834,0,Urban Multicultural hubs,1.076758568,2,Hinterlands,2.968745727,2
+E63004922,Maidenhead,58.25852018,330.438358,2,10,10,2,10,10,Hinterlands,3.00688752,1,High Skilled City adjacent areas,1.786169717,1,High Skilled City adjacent areas,2.154115425,2
+E63005002,Portishead,223.7240114,413.233095,2,10,10,2,10,10,Hinterlands,2.915240766,2,Hinterlands,2.8603054,1,High Skilled City adjacent areas,2.129212675,2
+E63005074,Reading,94.52961938,758.090038,2,10,10,2,10,10,Hinterlands,3.080708888,3,Deprived coastal areas,4.09407299,2,Hinterlands,3.086200424,2
+E63005076,Ashford (Spelthorne),66.67187262,841.33185,2,10,10,2,10,10,Hinterlands,3.099113695,3,Deprived coastal areas,3.840326078,1,High Skilled City adjacent areas,1.830994494,2
+E63005125,Margate,246.4336458,251.380023,2,10,10,2,10,10,Hinterlands,2.850114533,2,Hinterlands,3.179452253,3,Deprived coastal areas,4.167862882,2
+E63005160,Herne Bay,376.939798,763.686466,2,10,10,2,10,10,Hinterlands,2.953927322,4,University towns and cities,4.86279333,2,Hinterlands,3.031271762,2
+E63005161,Ascot,89.9245515,551.838028,2,10,10,2,10,10,Hinterlands,2.851233762,2,Hinterlands,2.840173317,4,University towns and cities,5.151690087,2
+E63005204,Gillingham (Medway),0.387367,500.01921,2,10,10,2,10,10,Hinterlands,3.206184981,2,Hinterlands,3.195885999,3,Deprived coastal areas,4.033370608,2
+E63005206,Whitstable,39.05733416,184.903022,2,10,10,2,10,10,Hinterlands,2.859595821,1,High Skilled City adjacent areas,2.195013041,3,Deprived coastal areas,3.990579984,2
+E63005306,Sandhurst (Bracknell Forest),69.70851227,816.835958,2,10,10,2,10,10,Hinterlands,2.851640786,1,High Skilled City adjacent areas,2.035877229,2,Hinterlands,3.007682146,2
+E63005320,Faversham,73.3550358,647.028518,2,10,10,2,10,10,Hinterlands,2.787238172,4,University towns and cities,4.773380616,2,Hinterlands,3.058064395,2
+E63005334,Epsom,72.80724915,504.331925,2,10,10,2,10,10,Hinterlands,2.854384075,1,High Skilled City adjacent areas,1.760041298,1,High Skilled City adjacent areas,1.876648704,2
+E63005385,Trowbridge,94.23181712,781.382757,2,10,10,2,10,10,Hinterlands,2.945075643,1,High Skilled City adjacent areas,2.15464946,0,Urban Multicultural hubs,0.931905775,2
+E63005388,Larkfield,58.21301149,365.403483,2,10,10,2,10,10,Hinterlands,3.008718292,4,University towns and cities,4.968181377,2,Hinterlands,3.134284193,2
+E63005577,Guildford,360.2059266,1.027889,2,10,10,2,10,10,Hinterlands,3.2195562,3,Deprived coastal areas,3.925492459,1,High Skilled City adjacent areas,2.117385346,2
+E63005671,Tonbridge,68.79592605,662.242385,2,10,10,2,10,10,Hinterlands,2.9695448,3,Deprived coastal areas,4.015773159,2,Hinterlands,3.02440699,2
+E63005681,Andover,212.4464665,84.042684,2,10,10,2,10,10,Hinterlands,3.036766197,2,Hinterlands,3.135227171,0,Urban Multicultural hubs,1.064872673,2
+E63005781,Dover,175.2274091,1.966825,2,10,10,2,10,10,Hinterlands,2.976061303,0,Urban Multicultural hubs,0.785805699,3,Deprived coastal areas,4.7702587,2
+E63006026,Horsham,68.65179557,590.728219,2,10,10,2,10,10,Hinterlands,3.231154972,3,Deprived coastal areas,3.933024831,4,University towns and cities,4.848542422,2
+E63006382,Southampton,14.89892318,358.8743,2,10,10,2,10,10,Hinterlands,3.113268156,1,High Skilled City adjacent areas,2.202183669,2,Hinterlands,3.212627193,2
+E63006439,Hastings,179.7478052,480.2318,2,10,10,2,10,10,Hinterlands,3.016284129,1,High Skilled City adjacent areas,2.038205314,0,Urban Multicultural hubs,0.784690364,2
+E63006474,Waterlooville,462.063553,79.056405,2,10,10,2,10,10,Hinterlands,2.952477,4,University towns and cities,4.944508996,3,Deprived coastal areas,4.089445023,2
+E63006520,Brighton and Hove,67.1629513,88.064729,2,10,10,2,10,10,Hinterlands,3.097227885,2,Hinterlands,3.198273489,1,High Skilled City adjacent areas,1.849267652,2
+E63006549,Worthing,87.38325547,862.227325,2,10,10,2,10,10,Hinterlands,3.05985427,0,Urban Multicultural hubs,1.226484139,2,Hinterlands,3.162490411,2
+E63006581,Lee-on-the-Solent,156.3829099,86.798749,2,10,10,2,10,10,Hinterlands,3.028157587,1,High Skilled City adjacent areas,1.829476274,2,Hinterlands,3.060280878,2
+E63006602,Eastbourne,0.3082929,533.504307,2,10,10,2,10,10,Hinterlands,2.831670055,3,Deprived coastal areas,4.2719803,4,University towns and cities,4.921230714,2
+E63006801,Exmouth,132.9631342,375.624734,2,10,10,2,10,10,Hinterlands,3.13222766,2,Hinterlands,2.926024885,1,High Skilled City adjacent areas,1.973065868,2
+E63006890,Torquay,58.35240863,244.339645,2,10,10,2,10,10,Hinterlands,3.17586643,0,Urban Multicultural hubs,1.185344198,3,Deprived coastal areas,3.7609538,2
+E63000050,Blyth (Northumberland),181.9657392,684.151868,3,10,10,10,3,10,Deprived coastal areas,3.784314078,0,Urban Multicultural hubs,0.8572489,3,Deprived coastal areas,4.088608669,3
+E63000076,Wallsend,288.7309084,118.128958,3,10,10,10,3,10,Deprived coastal areas,3.895443285,1,High Skilled City adjacent areas,1.93185864,1,High Skilled City adjacent areas,1.888477621,3
+E63000168,Seaham,2.5793021,299.855511,3,10,10,10,3,10,Deprived coastal areas,3.951199029,0,Urban Multicultural hubs,0.9071582,2,Hinterlands,3.0042256,3
+E63000190,Durham,196.6340325,268.11575,3,10,10,10,3,10,Deprived coastal areas,3.924133334,3,Deprived coastal areas,3.77629242,0,Urban Multicultural hubs,1.092188155,3
+E63000323,Thornaby-on-Tees,3.4520851,821.436169,3,10,10,10,3,10,Deprived coastal areas,3.986969879,0,Urban Multicultural hubs,0.965231944,2,Hinterlands,3.215219618,3
+E63000615,York,161.6379639,41.56445,3,10,10,10,3,10,Deprived coastal areas,4.189683598,1,High Skilled City adjacent areas,1.913094855,0,Urban Multicultural hubs,0.797515702,3
+E63000713,Keighley,82.6076609,839.402329,3,10,10,10,3,10,Deprived coastal areas,4.044546885,2,Hinterlands,3.197973477,2,Hinterlands,3.183438064,3
+E63000830,Preston (Preston),128.6600611,5.589376,3,10,10,10,3,10,Deprived coastal areas,3.959512629,3,Deprived coastal areas,4.056309827,2,Hinterlands,3.137008413,3
+E63000859,Rothwell (Leeds),134.2644283,89.961166,3,10,10,10,3,10,Deprived coastal areas,4.159803564,3,Deprived coastal areas,3.967217421,2,Hinterlands,2.892355339,3
+E63000864,Accrington,91.99282713,217.656793,3,10,10,10,3,10,Deprived coastal areas,4.048025914,2,Hinterlands,3.239903193,2,Hinterlands,3.164887941,3
+E63000900,Halifax,177.32729,524.4864,3,10,10,10,3,10,Deprived coastal areas,3.881703563,1,High Skilled City adjacent areas,1.917181931,3,Deprived coastal areas,4.012646272,3
+E63000916,Batley,382.9368044,767.483532,3,10,10,10,3,10,Deprived coastal areas,3.7721879,0,Urban Multicultural hubs,0.837689251,4,University towns and cities,5.142376168,3
+E63000930,Goole,149.1756372,677.365617,3,10,10,10,3,10,Deprived coastal areas,3.982901515,1,High Skilled City adjacent areas,1.7581614,4,University towns and cities,5.15944763,3
+E63000937,Brighouse,66.34199222,600.945419,3,10,10,10,3,10,Deprived coastal areas,4.158924289,1,High Skilled City adjacent areas,2.164854483,1,High Skilled City adjacent areas,2.199174609,3
+E630098,Bury (Bury),37.39900348,1.680765,3,10,10,10,3,10,Deprived coastal areas,3.83991159,0,Urban Multicultural hubs,1.217191479,2,Hinterlands,2.760011174,3
+E63001142,Royton,52.40695093,591.050352,3,10,10,10,3,10,Deprived coastal areas,4.023762081,3,Deprived coastal areas,3.795483749,3,Deprived coastal areas,4.247276186,3
+E63001149,Cleethorpes,76.43934094,439.955,3,10,10,10,3,10,Deprived coastal areas,4.151669746,1,High Skilled City adjacent areas,1.764228311,4,University towns and cities,5.9475974,3
+E63001151,Radcliffe,87.13015872,194.997226,3,10,10,10,3,10,Deprived coastal areas,4.049201,2,Hinterlands,2.907176783,1,High Skilled City adjacent areas,1.989911209,3
+E63001167,Skelmersdale,69.48030488,322.881352,3,10,10,10,3,10,Deprived coastal areas,4.208172887,2,Hinterlands,2.753924889,2,Hinterlands,3.070840706,3
+E63001172,Farnworth,208.7275615,148.093017,3,10,10,10,3,10,Deprived coastal areas,4.135086174,0,Urban Multicultural hubs,0.800490603,1,High Skilled City adjacent areas,1.787270752,3
+E63001203,Chadderton,233.6516701,893.886241,3,10,10,10,3,10,Deprived coastal areas,3.793245,3,Deprived coastal areas,3.769039641,2,Hinterlands,2.826638122,3
+E630012,Prestwich,142.44301,678.782418,3,10,10,10,3,10,Deprived coastal areas,4.02732084,3,Deprived coastal areas,4.007897613,2,Hinterlands,2.8790237,3
+E63001241,Swinton (Salford),139.9839844,932.819491,3,10,10,10,3,10,Deprived coastal areas,3.934018658,3,Deprived coastal areas,4.059149203,4,University towns and cities,5.039788177,3
+E63001260,Leigh (Wigan),47.47012877,846.059511,3,10,10,10,3,10,Deprived coastal areas,4.07334019,3,Deprived coastal areas,3.895638051,1,High Skilled City adjacent areas,1.781236099,3
+E63001278,Stalybridge,82.27174723,172.893663,3,10,10,10,3,10,Deprived coastal areas,4.068739392,2,Hinterlands,2.904076173,4,University towns and cities,5.112403934,3
+E63001294,Golborne,77.00553461,369.214209,3,10,10,10,3,10,Deprived coastal areas,3.873859699,1,High Skilled City adjacent areas,1.896446249,1,High Skilled City adjacent areas,2.0900047,3
+E63001297,Dukinfield,118.843029,928.161209,3,10,10,10,3,10,Deprived coastal areas,3.965877622,3,Deprived coastal areas,4.224664806,1,High Skilled City adjacent areas,1.952501275,3
+E630013,Bootle (Sefton),152.6715533,588.234527,3,10,10,10,3,10,Deprived coastal areas,3.860076094,1,High Skilled City adjacent areas,1.934833728,3,Deprived coastal areas,4.081861737,3
+E63001323,Denton (Tameside),117.6625151,244.684212,3,10,10,10,3,10,Deprived coastal areas,4.151843094,3,Deprived coastal areas,4.247185662,0,Urban Multicultural hubs,1.151464933,3
+E63001325,St Helens (St. Helens),2.7118712,375.873046,3,10,10,10,3,10,Deprived coastal areas,4.166165494,2,Hinterlands,3.083255061,2,Hinterlands,3.232637752,3
+E63001326,Stretford,167.5495967,478.938203,3,10,10,10,3,10,Deprived coastal areas,3.975823961,4,University towns and cities,4.796293633,2,Hinterlands,3.084847629,3
+E63001363,Sale,569.3661422,20.586768,3,10,10,10,3,10,Deprived coastal areas,4.5857274,1,High Skilled City adjacent areas,2.04667727,0,Urban Multicultural hubs,1.018605725,3
+E63001378,Stockport,141.6846588,70.335614,3,10,10,10,3,10,Deprived coastal areas,4.02333112,2,Hinterlands,3.239659983,2,Hinterlands,2.871918534,3
+E63001400,Warrington,121.5199919,515.557327,3,10,10,10,3,10,Deprived coastal areas,3.962020419,1,High Skilled City adjacent areas,2.071878627,2,Hinterlands,3.17625894,3
+E63001425,Widnes,87.23488139,780.578731,3,10,10,10,3,10,Deprived coastal areas,3.844959411,0,Urban Multicultural hubs,1.244050719,3,Deprived coastal areas,4.166916945,3
+E63001517,Dronfield,5.7563798,815.326534,3,10,10,10,3,10,Deprived coastal areas,4.016178204,2,Hinterlands,3.179549977,4,University towns and cities,5.1787094,3
+E63001599,Buxton (High Peak),91.79045489,593.273906,3,10,10,10,3,10,Deprived coastal areas,3.957609807,3,Deprived coastal areas,4.035386453,4,University towns and cities,5.027194131,3
+E63001715,Congleton,76.60726213,7.477051,3,10,10,10,3,10,Deprived coastal areas,4.057069731,1,High Skilled City adjacent areas,1.839693848,2,Hinterlands,2.960414264,3
+E63001804,Crewe,447.6358288,691.51402,3,10,10,10,3,10,Deprived coastal areas,3.825936614,0,Urban Multicultural hubs,1.121345884,0,Urban Multicultural hubs,1.060426122,3
+E63001825,Newark-on-Trent,280.0206383,523.853416,3,10,10,10,3,10,Deprived coastal areas,3.885958808,4,University towns and cities,5.07637059,4,University towns and cities,4.758986695,3
+E63001911,Heanor,42.67606535,191.181781,3,10,10,10,3,10,Deprived coastal areas,4.066851992,0,Urban Multicultural hubs,0.832122931,1,High Skilled City adjacent areas,2.225215789,3
+E63001992,Nottingham,136.7360545,732.042489,3,10,10,10,3,10,Deprived coastal areas,3.77293902,1,High Skilled City adjacent areas,2.137502441,1,High Skilled City adjacent areas,1.872784031,3
+E63002051,West Bridgford,84.39004136,312.320166,3,10,10,10,3,10,Deprived coastal areas,3.988858016,4,University towns and cities,5.216971162,0,Urban Multicultural hubs,0.807633733,3
+E63002092,Clifton (Nottingham),75.47647559,185.013697,3,10,10,10,3,10,Deprived coastal areas,3.8479476,3,Deprived coastal areas,4.046399671,1,High Skilled City adjacent areas,2.172343599,3
+E63002115,Long Eaton,40.56005517,602.424098,3,10,10,10,3,10,Deprived coastal areas,3.92562,4,University towns and cities,5.1396697,2,Hinterlands,3.060429928,3
+E63002304,Melton Mowbray,113.75169,49.804605,3,10,10,10,3,10,Deprived coastal areas,4.196956375,3,Deprived coastal areas,3.792262699,3,Deprived coastal areas,4.247883387,3
+E63002574,Great Yarmouth,119.2215766,505.759735,3,10,10,10,3,10,Deprived coastal areas,4.144097596,3,Deprived coastal areas,4.048930952,3,Deprived coastal areas,3.898115171,3
+E63002644,Tamworth,216.4851394,714.053037,3,10,10,10,3,10,Deprived coastal areas,4.004862333,1,High Skilled City adjacent areas,1.818289438,0,Urban Multicultural hubs,0.996316681,3
+E63002684,Oadby,72.86343309,45.037013,3,10,10,10,3,10,Deprived coastal areas,3.9200831,1,High Skilled City adjacent areas,2.167046024,4,University towns and cities,5.183782723,3
+E63002699,Willenhall,191.7547281,541.403416,3,10,10,10,3,10,Deprived coastal areas,3.911553647,1,High Skilled City adjacent areas,2.002305917,3,Deprived coastal areas,4.1648818,3
+E63002760,Royal Sutton Coldfield,34.09247801,670.334403,3,10,10,10,3,10,Deprived coastal areas,3.907666429,3,Deprived coastal areas,3.769718461,2,Hinterlands,2.787571927,3
+E63002827,Lowestoft,21.29367217,823.746168,3,10,10,10,3,10,Deprived coastal areas,4.246773541,2,Hinterlands,3.220391974,1,High Skilled City adjacent areas,1.8986583,3
+E63002828,West Bromwich,144.2567042,787.078935,3,10,10,10,3,10,Deprived coastal areas,3.9394705,3,Deprived coastal areas,4.225658971,1,High Skilled City adjacent areas,1.974074093,3
+E63002833,Nuneaton,55.87316501,729.033936,3,10,10,10,3,10,Deprived coastal areas,3.889767701,4,University towns and cities,4.922258492,4,University towns and cities,4.807120581,3
+E63002941,Halesowen,85.41404565,693.778964,3,10,10,10,3,10,Deprived coastal areas,4.177682534,0,Urban Multicultural hubs,1.04049421,3,Deprived coastal areas,3.98000338,3
+E63003136,Huntingdon,89.50191367,406.734516,3,10,10,10,3,10,Deprived coastal areas,3.816605801,3,Deprived coastal areas,4.046019293,3,Deprived coastal areas,3.908437382,3
+E63003313,Bury St Edmunds,113.8961425,849.317173,3,10,10,10,3,10,Deprived coastal areas,4.052450064,1,High Skilled City adjacent areas,1.898824853,2,Hinterlands,2.897457397,3
+E63003350,Droitwich Spa,46.98712576,206.33604,3,10,10,10,3,10,Deprived coastal areas,3.874088426,0,Urban Multicultural hubs,0.883770347,2,Hinterlands,3.226384512,3
+E63003502,Stratford-upon-Avon,220.3317629,136.679033,3,10,10,10,3,10,Deprived coastal areas,3.949712442,2,Hinterlands,3.198708311,4,University towns and cities,4.982076684,3
+E63003664,Kempston,82.623119,560.519543,3,10,10,10,3,10,Deprived coastal areas,3.914751203,0,Urban Multicultural hubs,0.978805085,3,Deprived coastal areas,3.891113003,3
+E63003830,Hereford,114.668293,983.544137,3,10,10,10,3,10,Deprived coastal areas,4.060128653,1,High Skilled City adjacent areas,2.196001771,3,Deprived coastal areas,3.945306387,3
+E63003960,Bletchley,278.021987,461.507031,3,10,10,10,3,10,Deprived coastal areas,3.792138062,4,University towns and cities,4.885031342,1,High Skilled City adjacent areas,2.008192745,3
+E630045,Leighton Buzzard,127.4928002,964.122364,3,10,10,10,3,10,Deprived coastal areas,4.071315629,4,University towns and cities,5.222271244,4,University towns and cities,4.820000139,3
+E63004113,Stevenage,66.71223263,252.138305,3,10,10,10,3,10,Deprived coastal areas,4.075217116,2,Hinterlands,2.989824994,2,Hinterlands,2.761728796,3
+E63004175,Dunstable,31.91962366,458.850095,3,10,10,10,3,10,Deprived coastal areas,3.786311208,2,Hinterlands,2.912066373,1,High Skilled City adjacent areas,2.236248589,3
+E63004326,Harpenden,174.1130715,598.424726,3,10,10,10,3,10,Deprived coastal areas,4.142116241,3,Deprived coastal areas,3.991977017,4,University towns and cities,4.955740316,3
+E63004347,Aylesbury,61.14411299,540.096964,3,10,10,10,3,10,Deprived coastal areas,4.199253545,3,Deprived coastal areas,4.248756464,3,Deprived coastal areas,4.1606167,3
+E63004358,Hertford,68.253521,498.200754,3,10,10,10,3,10,Deprived coastal areas,3.9248219,1,High Skilled City adjacent areas,2.124094054,2,Hinterlands,2.767555395,3
+E63004435,Berkhamsted,127.4553985,660.666833,3,10,10,10,3,10,Deprived coastal areas,3.881640445,1,High Skilled City adjacent areas,2.0003663,4,University towns and cities,5.236736934,3
+E63004458,Oxford,70.67472019,842.173704,3,10,10,10,3,10,Deprived coastal areas,4.184328762,4,University towns and cities,4.955449842,4,University towns and cities,5.029591218,3
+E63004541,Chesham,6.0847994,470.316186,3,10,10,10,3,10,Deprived coastal areas,3.906969166,2,Hinterlands,2.7618333,0,Urban Multicultural hubs,0.799655083,3
+E63004678,Bushey,41.34055007,705.914774,3,10,10,10,3,10,Deprived coastal areas,3.979291945,1,High Skilled City adjacent areas,2.00289483,3,Deprived coastal areas,4.1582529,3
+E63004689,Hazlemere,80.64875624,862.1655,3,10,10,10,3,10,Deprived coastal areas,3.824433226,2,Hinterlands,2.966561178,1,High Skilled City adjacent areas,2.060961938,3
+E63004701,Billericay,63.24686313,873.617656,3,10,10,10,3,10,Deprived coastal areas,3.893504783,1,High Skilled City adjacent areas,1.760157336,0,Urban Multicultural hubs,1.224223207,3
+E63004734,Wickford,117.01142,970.230798,3,10,10,10,3,10,Deprived coastal areas,3.75449633,2,Hinterlands,2.793804391,2,Hinterlands,3.051263478,3
+E63004772,Didcot,264.7334698,160.774406,3,10,10,10,3,10,Deprived coastal areas,4.146228441,3,Deprived coastal areas,3.863877261,3,Deprived coastal areas,3.872333928,3
+E63004822,Stratton St Margaret,111.7337293,305.74629,3,10,10,10,3,10,Deprived coastal areas,3.844608952,3,Deprived coastal areas,3.844671539,1,High Skilled City adjacent areas,1.811443892,3
+E63004918,Slough,45.09831403,802.752271,3,10,10,10,3,10,Deprived coastal areas,4.071366925,2,Hinterlands,3.221328205,3,Deprived coastal areas,3.953505948,3
+E63004955,Grays,391.4868705,523.577238,3,10,10,10,3,10,Deprived coastal areas,4.021142442,2,Hinterlands,2.889955144,3,Deprived coastal areas,4.059062203,3
+E63004963,Chafford Hundred and West Thurrock,58.99151215,641.5897,3,10,10,10,3,10,Deprived coastal areas,3.872433365,3,Deprived coastal areas,4.170835844,1,High Skilled City adjacent areas,2.067553136,3
+E63005007,Windsor,66.78988437,178.699746,3,10,10,10,3,10,Deprived coastal areas,4.052085595,3,Deprived coastal areas,4.012859826,3,Deprived coastal areas,3.807881216,3
+E63005047,Woodley,47.82384986,272.273774,3,10,10,10,3,10,Deprived coastal areas,4.023580022,2,Hinterlands,2.952963834,4,University towns and cities,4.794434992,3
+E63005057,Bristol,306.5444786,675.969054,3,10,10,10,3,10,Deprived coastal areas,4.189139013,2,Hinterlands,2.918879011,0,Urban Multicultural hubs,0.777917903,3
+E630050,Egham,189.2356015,45.702369,3,10,10,10,3,10,Deprived coastal areas,4.074878054,1,High Skilled City adjacent areas,1.961853533,2,Hinterlands,3.099883297,3
+E630053,Clevedon,127.58209,135.720194,3,10,10,10,3,10,Deprived coastal areas,3.937552141,3,Deprived coastal areas,3.790606686,3,Deprived coastal areas,3.791195112,3
+E63005132,Rochester,120.6911715,227.20344,3,10,10,10,3,10,Deprived coastal areas,4.111752262,1,High Skilled City adjacent areas,1.793680237,1,High Skilled City adjacent areas,2.028790397,3
+E63005179,Thatcham,141.6214332,142.763745,3,10,10,10,3,10,Deprived coastal areas,3.874754078,3,Deprived coastal areas,3.786691143,3,Deprived coastal areas,3.908308391,3
+E63005214,Ramsgate,73.00813326,571.9693,3,10,10,10,3,10,Deprived coastal areas,3.84358145,4,University towns and cities,4.795597006,3,Deprived coastal areas,3.822437632,3
+E63005238,Sittingbourne,159.8203118,440.942476,3,10,10,10,3,10,Deprived coastal areas,3.79701922,0,Urban Multicultural hubs,1.118300728,3,Deprived coastal areas,4.059166649,3
+E63005293,"New Haw, West Byfleet and Sheerwater",188.5011605,163.6892,3,10,10,10,3,10,Deprived coastal areas,3.882761376,1,High Skilled City adjacent areas,1.984432671,2,Hinterlands,2.784336141,3
+E63005383,Tadworth and Epsom Downs,203.0464659,127.484969,3,10,10,10,3,10,Deprived coastal areas,4.076897127,2,Hinterlands,3.15480838,0,Urban Multicultural hubs,1.20539406,3
+E63005450,Caterham,49.83041325,230.605252,3,10,10,10,3,10,Deprived coastal areas,3.996596762,1,High Skilled City adjacent areas,1.919200191,4,University towns and cities,5.172951994,3
+E63005459,Sevenoaks,44.36857241,762.952903,3,10,10,10,3,10,Deprived coastal areas,3.874966756,3,Deprived coastal areas,4.11866434,0,Urban Multicultural hubs,1.049797207,3
+E63005482,Farnborough,166.6930352,111.273041,3,10,10,10,3,10,Deprived coastal areas,3.894455557,1,High Skilled City adjacent areas,1.784525023,3,Deprived coastal areas,4.000453181,3
+E63005538,Basingstoke,82.26593534,366.460985,3,10,10,10,3,10,Deprived coastal areas,3.919922661,0,Urban Multicultural hubs,1.134877933,1,High Skilled City adjacent areas,2.231826697,3
+E63005546,Deal,122.9732388,191.502017,3,10,10,10,3,10,Deprived coastal areas,4.062646251,4,University towns and cities,4.859777586,1,High Skilled City adjacent areas,2.197768777,3
+E63005564,Ash and Ash Vale,4.0134861,779.96098,3,10,10,10,3,10,Deprived coastal areas,3.898984855,2,Hinterlands,3.070156482,2,Hinterlands,3.248183894,3
+E63005746,Horley (Reigate and Banstead),167.9342837,358.824995,3,10,10,10,3,10,Deprived coastal areas,4.157250288,2,Hinterlands,2.878323416,4,University towns and cities,4.855607341,3
+E63005776,Ashford (Ashford),154.394667,504.366671,3,10,10,10,3,10,Deprived coastal areas,4.079349853,3,Deprived coastal areas,4.1848688,2,Hinterlands,3.222774656,3
+E63005846,Royal Tunbridge Wells,111.0970575,297.07683,3,10,10,10,3,10,Deprived coastal areas,4.220488638,3,Deprived coastal areas,3.86938274,4,University towns and cities,4.944370082,3
+E63005876,East Grinstead,8.0480326,133.076415,3,10,10,10,3,10,Deprived coastal areas,3.854172823,1,High Skilled City adjacent areas,2.175826238,2,Hinterlands,3.194472888,3
+E63005907,Crawley (Crawley),29.28156708,240.969042,3,10,10,10,3,10,Deprived coastal areas,4.180917967,3,Deprived coastal areas,3.838515505,1,High Skilled City adjacent areas,1.844030042,3
+E63006038,Salisbury,32.99720782,380.206653,3,10,10,10,3,10,Deprived coastal areas,4.230963554,0,Urban Multicultural hubs,0.966949623,1,High Skilled City adjacent areas,2.020091367,3
+E63006154,Taunton,221.5162462,153.954502,3,10,10,10,3,10,Deprived coastal areas,3.907140239,3,Deprived coastal areas,4.008591951,2,Hinterlands,2.808636173,3
+E63006342,Yeovil,253.6589354,713.058769,3,10,10,10,3,10,Deprived coastal areas,3.798988346,3,Deprived coastal areas,4.206696663,2,Hinterlands,2.950446454,3
+E63006388,Totton,313.0900048,637.826365,3,10,10,10,3,10,Deprived coastal areas,4.19757076,0,Urban Multicultural hubs,0.821143776,3,Deprived coastal areas,4.084878344,3
+E63006492,Bexhill-on-Sea,179.7269064,460.684877,3,10,10,10,3,10,Deprived coastal areas,3.755995731,2,Hinterlands,2.853381217,2,Hinterlands,2.957917308,3
+E63006568,Rustington,88.33776783,273.252376,3,10,10,10,3,10,Deprived coastal areas,3.787503171,3,Deprived coastal areas,3.9229939,2,Hinterlands,2.884758051,3
+E63006574,Portsmouth,7.5005362,298.937438,3,10,10,10,3,10,Deprived coastal areas,3.936912643,2,Hinterlands,2.941999117,3,Deprived coastal areas,4.191475301,3
+E63006613,Gosport,150.2353917,970.40339,3,10,10,10,3,10,Deprived coastal areas,4.240286894,1,High Skilled City adjacent areas,1.872465353,3,Deprived coastal areas,3.940319176,3
+E63006736,Dorchester (Dorset),119.568466,49.730384,3,10,10,10,3,10,Deprived coastal areas,4.143023176,1,High Skilled City adjacent areas,2.220924168,2,Hinterlands,3.170850275,3
+E63000324,Middlesbrough,35.47204065,189.442427,4,10,10,10,10,4,University towns and cities,5.043863665,3,Deprived coastal areas,4.2464143,2,Hinterlands,3.240096333,4
+E63000339,Darlington,226.6188634,226.164641,4,10,10,10,10,4,University towns and cities,4.903974987,0,Urban Multicultural hubs,1.125277628,2,Hinterlands,2.8268945,4
+E63000346,Ingleby Barwick,167.507872,506.981834,4,10,10,10,10,4,University towns and cities,5.016230791,1,High Skilled City adjacent areas,2.036975543,2,Hinterlands,2.9784771,4
+E63000400,Kendal,120.4235707,148.241631,4,10,10,10,10,4,University towns and cities,4.928512062,3,Deprived coastal areas,3.911619665,3,Deprived coastal areas,3.845332147,4
+E63000530,Bridlington,57.97227757,694.952433,4,10,10,10,10,4,University towns and cities,5.000368665,4,University towns and cities,4.879023797,0,Urban Multicultural hubs,0.852911563,4
+E63000651,Fleetwood,42.05634894,468.196557,4,10,10,10,10,4,University towns and cities,4.849406537,1,High Skilled City adjacent areas,2.1872522,1,High Skilled City adjacent areas,1.913021572,4
+E63000784,Leeds,83.62278915,206.772599,4,10,10,10,10,4,University towns and cities,4.837407599,3,Deprived coastal areas,3.934537799,4,University towns and cities,4.922723743,4
+E63000873,Morley (Leeds),30.21130568,307.912365,4,10,10,10,10,4,University towns and cities,4.964890612,2,Hinterlands,3.008524674,1,High Skilled City adjacent areas,1.857916089,4
+E63000893,Bamber Bridge,58.37789703,365.434336,4,10,10,10,10,4,University towns and cities,5.165225756,3,Deprived coastal areas,3.814959166,4,University towns and cities,4.953548521,4
+E630009,Castleford,38.50775298,522.822638,4,10,10,10,10,4,University towns and cities,5.183515911,3,Deprived coastal areas,3.865373135,1,High Skilled City adjacent areas,1.76592918,4
+E63000934,Normanton (Wakefield),152.4976733,919.507825,4,10,10,10,10,4,University towns and cities,4.753253919,2,Hinterlands,3.211526463,2,Hinterlands,3.007212233,4
+E63001160,Barnsley,31.48412664,853.982308,4,10,10,10,10,4,University towns and cities,5.4396995,1,High Skilled City adjacent areas,1.887284006,2,Hinterlands,3.223593251,4
+E63001207,Little Hulton,43.68418976,565.290076,4,10,10,10,10,4,University towns and cities,4.885087225,2,Hinterlands,3.079576909,1,High Skilled City adjacent areas,1.7893954,4
+E63001350,Rotherham,96.08549446,692.835532,4,10,10,10,10,4,University towns and cities,4.895860211,2,Hinterlands,3.009018458,2,Hinterlands,2.961252297,4
+E63001384,Gainsborough,95.32676804,209.289244,4,10,10,10,10,4,University towns and cities,5.214173638,3,Deprived coastal areas,3.9359723,1,High Skilled City adjacent areas,2.204192507,4
+E63001394,Wythenshawe,54.45787413,170.163906,4,10,10,10,10,4,University towns and cities,4.875888704,3,Deprived coastal areas,4.240099834,3,Deprived coastal areas,3.823823477,4
+E63001464,Bebington,28.94852257,348.185733,4,10,10,10,10,4,University towns and cities,4.844511235,1,High Skilled City adjacent areas,2.119988383,0,Urban Multicultural hubs,0.944073341,4
+E63001506,Worksop,316.6274549,177.433385,4,10,10,10,10,4,University towns and cities,4.82487845,2,Hinterlands,2.89075492,3,Deprived coastal areas,4.245168472,4
+E63001554,Ellesmere Port,112.40521,643.393986,4,10,10,10,10,4,University towns and cities,4.873616056,3,Deprived coastal areas,3.98951854,0,Urban Multicultural hubs,0.945139049,4
+E63001958,Stoke-on-Trent,258.1797399,925.846233,4,10,10,10,10,4,University towns and cities,5.235673688,1,High Skilled City adjacent areas,2.082427885,4,University towns and cities,4.977911799,4
+E63002078,Derby,8.2183203,637.760994,4,10,10,10,10,4,University towns and cities,4.795750306,0,Urban Multicultural hubs,1.159669474,2,Hinterlands,2.995629665,4
+E63002275,Spalding,268.391671,391.770391,4,10,10,10,10,4,University towns and cities,4.826856518,2,Hinterlands,2.963851763,3,Deprived coastal areas,4.091936134,4
+E63002477,Cannock,151.8580671,281.035916,4,10,10,10,10,4,University towns and cities,5.046776373,3,Deprived coastal areas,3.826643825,2,Hinterlands,2.863038483,4
+E63002509,Wisbech,175.0077081,462.596349,4,10,10,10,10,4,University towns and cities,4.991516454,2,Hinterlands,3.149405276,4,University towns and cities,5.062374396,4
+E63002557,Stamford,142.2992718,464.851682,4,10,10,10,10,4,University towns and cities,4.987017084,2,Hinterlands,2.844540793,4,University towns and cities,5.154933123,4
+E63002598,Brownhills,35.62012648,407.69285,4,10,10,10,10,4,University towns and cities,4.821508141,2,Hinterlands,2.90556841,3,Deprived coastal areas,4.063631676,4
+E63002622,Leicester,256.1671204,639.128703,4,10,10,10,10,4,University towns and cities,4.948127292,4,University towns and cities,5.1384986,3,Deprived coastal areas,3.880328127,4
+E63002734,Walsall,37.87278459,957.028416,4,10,10,10,10,4,University towns and cities,4.90657044,3,Deprived coastal areas,4.170980407,3,Deprived coastal areas,4.025896928,4
+E63002830,Sedgley,38.30233802,932.156285,4,10,10,10,10,4,University towns and cities,4.944980599,0,Urban Multicultural hubs,1.2703824,1,High Skilled City adjacent areas,1.760112881,4
+E63002944,Stourbridge,79.44995956,198.4681,4,10,10,10,10,4,University towns and cities,4.888256043,1,High Skilled City adjacent areas,1.972533169,2,Hinterlands,2.814702702,4
+E63003016,Kettering,62.52712323,420.25478,4,10,10,10,10,4,University towns and cities,5.008638324,3,Deprived coastal areas,3.890845533,4,University towns and cities,4.980696255,4
+E63003192,Bromsgrove,130.4528134,753.486228,4,10,10,10,10,4,University towns and cities,5.199114532,1,High Skilled City adjacent areas,1.988367986,3,Deprived coastal areas,3.939293135,4
+E63003267,Rushden,52.53633502,594.765115,4,10,10,10,10,4,University towns and cities,4.862025628,2,Hinterlands,3.06648287,2,Hinterlands,2.790184807,4
+E63003268,Redditch,319.4541938,592.576728,4,10,10,10,10,4,University towns and cities,4.965259449,2,Hinterlands,3.178719755,0,Urban Multicultural hubs,0.807444335,4
+E63003278,Royal Leamington Spa,94.97304968,964.211525,4,10,10,10,10,4,University towns and cities,4.985030166,1,High Skilled City adjacent areas,2.120207954,3,Deprived coastal areas,4.056111861,4
+E63003490,Worcester,424.8192631,548.123711,4,10,10,10,10,4,University towns and cities,4.84560379,3,Deprived coastal areas,4.143989137,2,Hinterlands,2.8883811,4
+E63003709,Haverhill,34.8602941,971.187315,4,10,10,10,10,4,University towns and cities,4.882846336,2,Hinterlands,3.152582139,1,High Skilled City adjacent areas,2.0586814,4
+E63003946,Felixstowe,83.80735829,469.875578,4,10,10,10,10,4,University towns and cities,4.975381206,0,Urban Multicultural hubs,1.024514836,1,High Skilled City adjacent areas,1.778729069,4
+E63004012,Harwich,159.0658163,607.788893,4,10,10,10,10,4,University towns and cities,5.216098448,1,High Skilled City adjacent areas,2.060012031,3,Deprived coastal areas,3.965005584,4
+E63004136,Braintree,149.9240838,193.191619,4,10,10,10,10,4,University towns and cities,5.133743581,3,Deprived coastal areas,3.870139005,1,High Skilled City adjacent areas,2.183432165,4
+E63004300,Clacton-on-Sea,60.75385772,921.520835,4,10,10,10,10,4,University towns and cities,4.770242946,3,Deprived coastal areas,4.189293288,1,High Skilled City adjacent areas,1.883817557,4
+E63004312,Witham,132.4656609,98.382564,4,10,10,10,10,4,University towns and cities,5.085648903,2,Hinterlands,2.8047275,2,Hinterlands,2.86003961,4
+E63004343,Quedgeley and Hardwicke,57.5187155,351.162673,4,10,10,10,10,4,University towns and cities,4.921842136,3,Deprived coastal areas,3.902587704,2,Hinterlands,2.812816899,4
+E63004441,St Albans,63.25982788,606.887794,4,10,10,10,10,4,University towns and cities,4.896992639,3,Deprived coastal areas,4.017466328,2,Hinterlands,2.786709198,4
+E63004484,Stroud,72.38842115,33.113416,4,10,10,10,10,4,University towns and cities,5.178991636,2,Hinterlands,2.946531835,3,Deprived coastal areas,4.051672423,4
+E63004669,Loughton,149.6006865,178.347589,4,10,10,10,10,4,University towns and cities,5.211592052,2,Hinterlands,2.885848007,0,Urban Multicultural hubs,0.977238407,4
+E63005030,Dartford,172.6839597,932.272182,4,10,10,10,10,4,University towns and cities,5.175634518,1,High Skilled City adjacent areas,1.847267184,3,Deprived coastal areas,4.1497853,4
+E63005145,Bracknell,64.87750024,951.969348,4,10,10,10,10,4,University towns and cities,5.149652328,1,High Skilled City adjacent areas,2.016574266,3,Deprived coastal areas,3.799427552,4
+E63005168,Newbury,114.596191,745.025807,4,10,10,10,10,4,University towns and cities,4.752803019,3,Deprived coastal areas,3.940460821,3,Deprived coastal areas,4.064575872,4
+E63005203,West Molesey,203.9097975,822.904465,4,10,10,10,10,4,University towns and cities,4.904618641,1,High Skilled City adjacent areas,1.958858011,2,Hinterlands,2.906628432,4
+E63005227,Bath,115.05257,5.861248,4,10,10,10,10,4,University towns and cities,5.212411657,0,Urban Multicultural hubs,0.891613188,4,University towns and cities,5.156598683,4
+E63005285,Ewell,2.6387363,381.713597,4,10,10,10,10,4,University towns and cities,5.163824737,3,Deprived coastal areas,4.225599492,2,Hinterlands,2.946965162,4
+E63005323,Weston-super-Mare,158.9382211,322.35211,4,10,10,10,10,4,University towns and cities,4.8978379,1,High Skilled City adjacent areas,2.225092942,4,University towns and cities,5.119794195,4
+E63005413,Woking,258.5052119,232.845458,4,10,10,10,10,4,University towns and cities,4.795599425,1,High Skilled City adjacent areas,2.164866275,1,High Skilled City adjacent areas,1.872124346,4
+E63005571,Aldershot,279.12077,382.695381,4,10,10,10,10,4,University towns and cities,4.956499709,2,Hinterlands,3.168002322,1,High Skilled City adjacent areas,1.757036331,4
+E63005914,Folkestone,85.44185896,269.99614,4,10,10,10,10,4,University towns and cities,4.791826236,4,University towns and cities,5.086623479,2,Hinterlands,3.023948575,4
+E63006718,Exeter,175.2747999,590.565678,4,10,10,10,10,4,University towns and cities,4.95698,3,Deprived coastal areas,3.951633088,1,High Skilled City adjacent areas,1.909479813,4
+E63006905,Newquay,26.68456897,732.43542,4,10,10,10,10,4,University towns and cities,5.119955648,2,Hinterlands,2.960965118,3,Deprived coastal areas,4.004997774,4
+E63007022,Camborne,45.65301289,529.673068,4,10,10,10,10,4,University towns and cities,4.865688618,1,High Skilled City adjacent areas,1.948693075,2,Hinterlands,2.771309042,4
+E63007057,Falmouth,253.5158302,821.478058,4,10,10,10,10,4,University towns and cities,4.79520229,4,University towns and cities,4.857798526,2,Hinterlands,3.222752041,4
+K08000001,Chester,160.702537,948.521948,4,10,10,10,10,4,University towns and cities,4.901823638,1,High Skilled City adjacent areas,2.2486287,2,Hinterlands,2.887956919,4

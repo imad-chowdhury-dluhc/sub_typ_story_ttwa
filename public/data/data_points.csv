@@ -1,0 +1,458 @@
+code,name
+E63000040,Ashington (Northumberland)
+E63000077,Newcastle upon Tyne
+E63000125,Sunderland
+E63000268,Workington
+E63000326,Whitehaven
+E63000560,Lancaster
+E63000601,Harrogate
+E63000936,Rawtenstall
+E630029,Southport
+E63001155,Formby
+E63001179,Westhoughton
+E63001199,Orrell
+E63001232,Maghull
+E63001268,Ashton-under-Lyne
+E63001318,Newton-le-Willows
+E63001365,Prescot
+E63001795,Kirkby-in-Ashfield
+E63002256,Burton upon Trent
+E63002336,Rugeley
+E63002505,Telford
+E63002526,Burntwood
+E63002720,Peterborough
+E63002757,Darlaston
+E63002901,Market Harborough
+E63003736,Ipswich
+E63003818,Banbury
+E63003977,Letchworth
+E63004031,Hitchin
+E63004191,Bishop's Stortford
+E63004449,Hemel Hempstead
+E63004542,Cheshunt
+E63004713,Brentwood
+E63004759,Rayleigh
+E63004905,Bradley Stoke
+E63005130,Sunbury-on-Thames
+E63005181,Wokingham
+E63005212,Chatham
+E630054,Canterbury
+E63005466,Maidstone
+E63005478,Great Bookham and Fetcham
+E63005505,Fleet
+E63006230,Chandler's Ford
+E63006272,Eastleigh
+E63006542,Lancing and Sompting
+E63006744,Newport (Isle of Wight)
+E63006861,Newton Abbot
+E63006926,Plymouth
+E63006998,Truro
+E63000053,Cramlington
+E63000061,Whitley Bay
+E63000087,South Shields
+E63000090,Hebburn
+E63000094,Jarrow
+E63000133,Carlisle
+E63000232,Spennymoor
+E63000267,Bishop Auckland
+E63000283,Newton Aycliffe
+E63000298,Billingham
+E63000316,Eston
+E63000521,Barrow-in-Furness
+E63000726,Beverley
+E63000746,Nelson (Pendle)
+E63000792,Blackpool
+E63000800,Burnley
+E63000803,Bradford
+E63000807,Fulwood
+E63000869,Blackburn (Blackburn with Darwen)
+E63000957,Pontefract
+E630069,Rochdale
+E630095,Horwich
+E63001112,Scunthorpe
+E63001152,Ormskirk
+E63001173,Whitefield
+E63001192,Oldham
+E63001213,Atherton
+E63001269,Ashton-in-Makerfield
+E63001274,Salford
+E63001285,Droylsden
+E63001295,Manchester
+E63001305,Old Trafford
+E63001320,Hyde (Tameside)
+E63001321,Urmston
+E63001339,Reddish
+E63001374,Liverpool
+E63001395,Altrincham
+E63001423,Hazel Grove
+E63001424,Sheffield
+E63001429,Cheadle Hulme
+E63001481,Runcorn
+E63001489,Wilmslow
+E63001591,Macclesfield
+E63001616,Chesterfield
+E63001650,Lincoln
+E63001717,Skegness
+E63001740,Mansfield
+E63001882,Ripley (Amber Valley)
+E63001889,Hucknall
+E63001952,Boston
+E63002057,Beeston (Broxtowe)
+E63002069,Grantham
+E63002259,Stafford
+E63002284,King's Lynn
+E63002317,Loughborough
+E63002408,Coalville
+E63002444,Shrewsbury
+E63002711,Wigston
+E63002713,Wolverhampton
+E63002748,March
+E63002772,Bilston (Wolverhampton)
+E63002782,Wednesbury
+E63002862,Dudley (Dudley)
+E63002880,Oldbury (Sandwell)
+E63002884,Kingswinford
+E63002887,Rowley Regis
+E63002958,Thetford
+E63003006,Coventry
+E63003152,Kenilworth
+E63003157,Stourport-on-Severn
+E63003230,Wellingborough
+E63003390,Northampton
+E63003403,St Neots
+E63003443,Cambridge (Cambridge)
+E63003597,Bedford
+E63003740,Biggleswade
+E63003770,Evesham
+E63004145,Luton
+E63004154,Bicester
+E63004173,Cheltenham
+E63004269,Gloucester
+E63004405,Witney
+E63004408,Harlow
+E63004421,Hatfield
+E63004427,Hoddesdon
+E63004442,Chelmsford
+E63004443,Maldon
+E63004665,Borehamwood
+E63004708,Rickmansworth
+E63004808,Thundersley and South Benfleet
+E63004820,Southend-on-Sea
+E63004884,Yate
+E63004897,South Ockendon
+E63005008,Caversham
+E63005018,Kingswood and Fishponds
+E63005039,Northfleet
+E63005045,Chippenham (Wiltshire)
+E63005058,Gravesend
+E630055,Staines-upon-Thames
+E63005149,Broadstairs
+E63005192,Walton-on-Thames
+E63005342,Camberley
+E63005580,Reigate
+E63005598,Redhill (Reigate and Banstead)
+E63005631,Frome
+E63005680,Farnham
+E63005912,Bridgwater
+E63005982,Barnstaple
+E63006040,Crowborough
+E63006064,Winchester
+E63006170,Haywards Heath
+E63006275,Burgess Hill
+E63006386,Hedge End
+E63006406,Horndean
+E63006464,Hailsham
+E63006507,Havant
+E63006509,Locks Heath
+E63006527,Fareham
+E63006538,Shoreham-by-Sea
+E63006541,Chichester
+E63006618,Bognor Regis
+E63006626,Seaford
+E63006696,"Christchurch (Bournemouth, Christchurch and Poole)"
+E63006699,Bournemouth
+E63006720,Poole
+E63006721,Ryde
+E63006804,Weymouth
+E63006916,Paignton
+E63006956,St Austell
+E63000072,Longbenton
+E63000073,Tynemouth
+E63000111,Gateshead
+E63000124,Washington
+E63000158,Chester-le-Street
+E63000161,Consett
+E63000242,Hartlepool
+E63000288,Redcar
+E63000311,Stockton-on-Tees
+E63000425,Scarborough
+E63000551,Morecambe
+E63000727,Bingley
+E63000751,Shipley (Bradford)
+E63000789,Pudsey
+E63000825,Kingston upon Hull
+E63000855,Lytham St Anne's
+E63000874,Penwortham
+E63000945,Darwen
+E63000947,Leyland
+E63000970,Dewsbury
+E63000971,Wakefield
+E63000979,Ossett
+E630008,Chorley
+E630017,Huddersfield
+E630019,Bolton (Bolton)
+E63001118,Heywood
+E63001128,Grimsby
+E63001168,Middleton (Rochdale)
+E63001177,Wigan
+E63001198,Hindley
+E63001229,Doncaster
+E63001273,Crosby (Sefton)
+E63001281,Eccles (Salford)
+E63001284,Kirkby
+E63001306,Chapeltown and High Green
+E63001357,Wickersley and Bramley
+E63001362,Wallasey
+E63001367,Huyton with Roby
+E63001403,Birkenhead
+E63001468,Heswall
+E63001487,Retford
+E63001685,Winsford
+E63001754,Sutton in Ashfield
+E63001908,Newcastle-under-Lyme
+E63001927,Arnold
+E63001982,Carlton (Gedling)
+E63001997,Ilkeston
+E63002300,Swadlincote
+E63002445,Dereham
+E63002507,Norwich
+E63002522,Lichfield
+E63002637,Gorleston-on-Sea
+E63002672,Bloxwich
+E63002801,Hinckley
+E63002812,Tipton
+E63002815,Coseley
+E63002876,Corby
+E63002889,Smethwick
+E63002904,Birmingham
+E63002913,Brierley Hill
+E63002915,Bedworth
+E63003011,Solihull
+E63003049,Kidderminster
+E63003068,Rugby
+E63003308,Warwick
+E63003342,Daventry
+E63003439,Stowmarket
+E63003695,Great Malvern
+E63003805,Sudbury
+E63003858,Milton Keynes
+E630044,Colchester
+E63004349,Welwyn Garden City
+E63004573,Potters Bar
+E63004647,Abingdon-on-Thames
+E63004690,Watford (Watford)
+E63004735,High Wycombe
+E63004799,Basildon
+E63004848,Swindon (Swindon)
+E63004875,Canvey Island
+E63004883,Stanford-le-Hope
+E63004922,Maidenhead
+E63005002,Portishead
+E63005074,Reading
+E63005076,Ashford (Spelthorne)
+E63005125,Margate
+E63005160,Herne Bay
+E63005161,Ascot
+E63005204,Gillingham (Medway)
+E63005206,Whitstable
+E63005306,Sandhurst (Bracknell Forest)
+E63005320,Faversham
+E63005334,Epsom
+E63005385,Trowbridge
+E63005388,Larkfield
+E63005577,Guildford
+E63005671,Tonbridge
+E63005681,Andover
+E63005781,Dover
+E63006026,Horsham
+E63006382,Southampton
+E63006439,Hastings
+E63006474,Waterlooville
+E63006520,Brighton and Hove
+E63006549,Worthing
+E63006581,Lee-on-the-Solent
+E63006602,Eastbourne
+E63006801,Exmouth
+E63006890,Torquay
+E63000050,Blyth (Northumberland)
+E63000076,Wallsend
+E63000168,Seaham
+E63000190,Durham
+E63000323,Thornaby-on-Tees
+E63000615,York
+E63000713,Keighley
+E63000830,Preston (Preston)
+E63000859,Rothwell (Leeds)
+E63000864,Accrington
+E63000900,Halifax
+E63000916,Batley
+E63000930,Goole
+E63000937,Brighouse
+E630098,Bury (Bury)
+E63001142,Royton
+E63001149,Cleethorpes
+E63001151,Radcliffe
+E63001167,Skelmersdale
+E63001172,Farnworth
+E63001203,Chadderton
+E630012,Prestwich
+E63001241,Swinton (Salford)
+E63001260,Leigh (Wigan)
+E63001278,Stalybridge
+E63001294,Golborne
+E63001297,Dukinfield
+E630013,Bootle (Sefton)
+E63001323,Denton (Tameside)
+E63001325,St Helens (St. Helens)
+E63001326,Stretford
+E63001363,Sale
+E63001378,Stockport
+E63001400,Warrington
+E63001425,Widnes
+E63001517,Dronfield
+E63001599,Buxton (High Peak)
+E63001715,Congleton
+E63001804,Crewe
+E63001825,Newark-on-Trent
+E63001911,Heanor
+E63001992,Nottingham
+E63002051,West Bridgford
+E63002092,Clifton (Nottingham)
+E63002115,Long Eaton
+E63002304,Melton Mowbray
+E63002574,Great Yarmouth
+E63002644,Tamworth
+E63002684,Oadby
+E63002699,Willenhall
+E63002760,Royal Sutton Coldfield
+E63002827,Lowestoft
+E63002828,West Bromwich
+E63002833,Nuneaton
+E63002941,Halesowen
+E63003136,Huntingdon
+E63003313,Bury St Edmunds
+E63003350,Droitwich Spa
+E63003502,Stratford-upon-Avon
+E63003664,Kempston
+E63003830,Hereford
+E63003960,Bletchley
+E630045,Leighton Buzzard
+E63004113,Stevenage
+E63004175,Dunstable
+E63004326,Harpenden
+E63004347,Aylesbury
+E63004358,Hertford
+E63004435,Berkhamsted
+E63004458,Oxford
+E63004541,Chesham
+E63004678,Bushey
+E63004689,Hazlemere
+E63004701,Billericay
+E63004734,Wickford
+E63004772,Didcot
+E63004822,Stratton St Margaret
+E63004918,Slough
+E63004955,Grays
+E63004963,Chafford Hundred and West Thurrock
+E63005007,Windsor
+E63005047,Woodley
+E63005057,Bristol
+E630050,Egham
+E630053,Clevedon
+E63005132,Rochester
+E63005179,Thatcham
+E63005214,Ramsgate
+E63005238,Sittingbourne
+E63005293,"New Haw, West Byfleet and Sheerwater"
+E63005383,Tadworth and Epsom Downs
+E63005450,Caterham
+E63005459,Sevenoaks
+E63005482,Farnborough
+E63005538,Basingstoke
+E63005546,Deal
+E63005564,Ash and Ash Vale
+E63005746,Horley (Reigate and Banstead)
+E63005776,Ashford (Ashford)
+E63005846,Royal Tunbridge Wells
+E63005876,East Grinstead
+E63005907,Crawley (Crawley)
+E63006038,Salisbury
+E63006154,Taunton
+E63006342,Yeovil
+E63006388,Totton
+E63006492,Bexhill-on-Sea
+E63006568,Rustington
+E63006574,Portsmouth
+E63006613,Gosport
+E63006736,Dorchester (Dorset)
+E63000324,Middlesbrough
+E63000339,Darlington
+E63000346,Ingleby Barwick
+E63000400,Kendal
+E63000530,Bridlington
+E63000651,Fleetwood
+E63000784,Leeds
+E63000873,Morley (Leeds)
+E63000893,Bamber Bridge
+E630009,Castleford
+E63000934,Normanton (Wakefield)
+E63001160,Barnsley
+E63001207,Little Hulton
+E63001350,Rotherham
+E63001384,Gainsborough
+E63001394,Wythenshawe
+E63001464,Bebington
+E63001506,Worksop
+E63001554,Ellesmere Port
+E63001958,Stoke-on-Trent
+E63002078,Derby
+E63002275,Spalding
+E63002477,Cannock
+E63002509,Wisbech
+E63002557,Stamford
+E63002598,Brownhills
+E63002622,Leicester
+E63002734,Walsall
+E63002830,Sedgley
+E63002944,Stourbridge
+E63003016,Kettering
+E63003192,Bromsgrove
+E63003267,Rushden
+E63003268,Redditch
+E63003278,Royal Leamington Spa
+E63003490,Worcester
+E63003709,Haverhill
+E63003946,Felixstowe
+E63004012,Harwich
+E63004136,Braintree
+E63004300,Clacton-on-Sea
+E63004312,Witham
+E63004343,Quedgeley and Hardwicke
+E63004441,St Albans
+E63004484,Stroud
+E63004669,Loughton
+E63005030,Dartford
+E63005145,Bracknell
+E63005168,Newbury
+E63005203,West Molesey
+E63005227,Bath
+E63005285,Ewell
+E63005323,Weston-super-Mare
+E63005413,Woking
+E63005571,Aldershot
+E63005914,Folkestone
+E63006718,Exeter
+E63006905,Newquay
+E63007022,Camborne
+E63007057,Falmouth
+K08000001,Chester
